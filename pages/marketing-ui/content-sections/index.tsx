@@ -8,6 +8,7 @@ import ContentCardImagesSection from "./card-images";
 import TableOfContentsCardContentSection from "./table-contents";
 import LogoCTALinksImageFeatureListContentSection from "./feature-list";
 import HeadingWithDescriptionTwoColumnsContentSection from "./two-columns";
+import ComprehensiveComparison from "./comprehensive-comparison";
 import BlockSection from "../../../components/block-section";
 import BlockPageBreadcrumb from "../../../components/block-breadcrumb";
 
@@ -80,6 +81,13 @@ const AllContentSections: FC = function () {
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/content-sections/feature-list.tsx"
       >
         <LogoCTALinksImageFeatureListContentSection />
+      </BlockSection>
+      <BlockSection
+        title="Comprehensive comparison table"
+        description="A detailed feature-by-feature comparison table with checkmarks and tooltips to help users compare plans."
+        githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/content-sections/comprehensive-comparison.tsx"
+      >
+        <ComprehensiveComparison />
       </BlockSection>
     </>
   );

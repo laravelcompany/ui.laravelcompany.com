@@ -10,11 +10,11 @@ const HomePage: FC = function () {
         UI Laravel Company
       </h1>
       <p className="mb-8 text-lg text-gray-500 dark:text-gray-400 max-w-3xl">
-          This is a collection of design inspirations for conmpanies websites it is a fork of an older version of flowbite css with more custom components.
+        This is a collection of design inspirations for conmpanies websites it is a fork of an older version of flowbite css with more custom components.
         <a href="https://laravelcompany.com/" className="text-blue-500 underline" title="Visit Laravel Development Services website">
           Laravel Development Services
         </a>
-       .
+        .
       </p>
       <div className="lg:text-center">
         <BlockCategoryCardsSection />
@@ -38,7 +38,7 @@ const BlockCategoryCardsSection: FC = function () {
         }) => (
           <Link
             key={title}
-            to={`${categorySlug}/${slug}`}
+            to={`/${categorySlug}/${slug}`}
             className="dark:hover:shadow-lg-light h-64 cursor-pointer rounded-lg border border-gray-100 bg-white hover:border-white hover:shadow-lg dark:border-gray-700 dark:bg-gray-900 dark:hover:border-gray-600 md:h-80"
           >
             <article className="flex items-center justify-between rounded-t-md border-b border-gray-200 bg-gray-50 px-5 py-2.5 dark:border-gray-700 dark:bg-gray-700">

@@ -8,6 +8,7 @@ import ToggleSwitchPricingTable from "./pricing-toggle";
 import BlockSection from "../../../components/block-section";
 import BlockPageBreadcrumb from "../../../components/block-breadcrumb";
 import TabsSelectorPricingCards from "./tabs-selector";
+import DynamicPricing from "./dynamic-pricing";
 
 const AllPricingTables: FC = function () {
   return (
@@ -64,6 +65,13 @@ const AllPricingTables: FC = function () {
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/pricing-tables/pricing-toggle.tsx"
       >
         <ToggleSwitchPricingTable />
+      </BlockSection>
+      <BlockSection
+        title="Dynamic pricing with toggle"
+        description="A modern pricing table with a toggle switch for billing cycles and highlighted recommended plans."
+        githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/pricing-tables/dynamic-pricing.tsx"
+      >
+        <DynamicPricing />
       </BlockSection>
     </>
   );

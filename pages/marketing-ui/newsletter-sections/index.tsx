@@ -6,6 +6,7 @@ import ModalEmailSignUpNewsletterSection from "./modal-signup";
 import BlockSection from "../../../components/block-section";
 import BlockPageBreadcrumb from "../../../components/block-breadcrumb";
 import BannerEmailSignUpNewsletterSection from "./banner";
+import VisualNewsletter from "./visual-newsletter";
 
 const AllNewsletterSections: FC = function () {
   return (
@@ -48,6 +49,13 @@ const AllNewsletterSections: FC = function () {
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/newsletter-sections/modal-signup.tsx"
       >
         <ModalEmailSignUpNewsletterSection />
+      </BlockSection>
+      <BlockSection
+        title="Newsletter with visual impact"
+        description="This example can be used to show a newsletter sign-up section with a visual image next to it to increase the conversion rate."
+        githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/newsletter-sections/visual-newsletter.tsx"
+      >
+        <VisualNewsletter />
       </BlockSection>
     </>
   );

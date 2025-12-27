@@ -60,7 +60,7 @@
     "categorySlug": "marketing-ui",
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/content-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/content.svg",
-    "numComponents": 9
+    "numComponents": 10
   },
   {
     "title": "Cookie Consent",
@@ -162,6 +162,15 @@
     "numComponents": 18
   },
   {
+    "title": "How It Works",
+    "categoryTitle": "Marketing UI",
+    "slug": "how-it-works",
+    "categorySlug": "marketing-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/content-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/content.svg",
+    "numComponents": 2
+  },
+  {
     "title": "Login Forms",
     "categoryTitle": "Marketing UI",
     "slug": "login-forms",
@@ -186,7 +195,7 @@
     "categorySlug": "marketing-ui",
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/newsletter-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/newsletter.svg",
-    "numComponents": 5
+    "numComponents": 6
   },
   {
     "title": "Popups",
@@ -204,7 +213,7 @@
     "categorySlug": "marketing-ui",
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/pricing-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/pricing.svg",
-    "numComponents": 8
+    "numComponents": 9
   },
   {
     "title": "Project Portfolio",
