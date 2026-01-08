@@ -18,6 +18,32 @@ const GridWithHoverEffects: FC = function () {
     <BlockSection
       title="Grid with Hover Effects"
       description="Team cards that reveal social links and extra info on hover"
+      code={`
+<div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+    <Card className="group relative overflow-hidden transition-all hover:-translate-y-1 hover:shadow-xl dark:bg-gray-800 dark:border-gray-700">
+        <div className="flex flex-col items-center pb-10">
+            <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie image" />
+            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
+            <span className="text-sm text-gray-500 dark:text-gray-400">CEO & Co-Founder</span>
+            <div className="flex mt-4 space-x-3 md:mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Review</a>
+                <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Message</a>
+            </div>
+        </div>
+    </Card>
+    <Card className="group relative overflow-hidden transition-all hover:-translate-y-1 hover:shadow-xl dark:bg-gray-800 dark:border-gray-700">
+        <div className="flex flex-col items-center pb-10">
+            <img className="w-24 h-24 mb-3 rounded-full shadow-lg object-cover" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese image" />
+            <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Jese Leos</h5>
+            <span className="text-sm text-gray-500 dark:text-gray-400">CTO</span>
+            <div className="flex mt-4 space-x-3 md:mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Review</a>
+                <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Message</a>
+            </div>
+        </div>
+    </Card>
+</div>
+      `}
     >
       <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
         <Card className="group relative overflow-hidden transition-all hover:-translate-y-1 hover:shadow-xl dark:bg-gray-800 dark:border-gray-700">
