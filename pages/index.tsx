@@ -6,12 +6,14 @@ import categoriesOfBlocks from "../data/blocks-categories.json";
 const HomePage: FC = function () {
   return (
     <div className="p-4 dark:bg-gray-900 max-w-screen-2xl mx-auto">
-      <h1 className="mb-2 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white" title="Free UI Design for Laravel Developers">
-        UI Laravel Company
+      <h1 className="mb-2 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white" title="Premium React Components for Laravel Developers">
+        Laravel Company UI
       </h1>
-      <p className="mb-8 text-lg text-gray-500 dark:text-gray-400 max-w-3xl">
-        This is a collection of design inspirations for conmpanies websites it is a fork of an older version of flowbite css with more custom components.
-        <a href="https://laravelcompany.com/" className="text-blue-500 underline" title="Visit Laravel Development Services website">
+      <p className="mb-8 text-xl text-gray-500 dark:text-gray-400 max-w-3xl leading-relaxed">
+        A curated collection of premium React components and UI blocks designed for modern companies.
+        Highly customizable and built for performance, this collection is enhanced with custom features
+        and powered by our team at{" "}
+        <a href="https://laravelcompany.com/" className="text-blue-600 dark:text-blue-500 font-semibold hover:underline" title="Visit Laravel Development Services">
           Laravel Development Services
         </a>
         .
@@ -23,10 +25,12 @@ const HomePage: FC = function () {
   );
 };
 
-const BlockCategoryCardsSection: FC = function () {
+const BlockCategoryCardsSection: FC<{ categories?: typeof categoriesOfBlocks }> = function ({
+  categories = categoriesOfBlocks
+}) {
   return (
     <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-      {categoriesOfBlocks.map(
+      {categories.map(
         ({
           categorySlug,
           categoryTitle,
@@ -81,4 +85,5 @@ const BlockCategoryCardsSection: FC = function () {
   );
 };
 
+export { BlockCategoryCardsSection };
 export default HomePage;

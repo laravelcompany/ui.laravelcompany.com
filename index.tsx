@@ -1,4 +1,4 @@
-import { Button, DarkThemeToggle, Flowbite, Navbar } from "flowbite-react";
+import { DarkThemeToggle, Flowbite, Navbar } from "flowbite-react";
 import type { FC } from "react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -30,11 +30,31 @@ for (const path of Object.keys(pages)) {
   });
 }
 
+const GlobalErrorBoundary: FC = function () {
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-4 dark:bg-gray-900">
+      <div className="w-full max-w-md text-center">
+        <h1 className="mb-4 text-6xl font-extrabold text-blue-600">500</h1>
+        <p className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Something went wrong</p>
+        <p className="mb-8 text-gray-500 dark:text-gray-400">
+          We encountered an unexpected error. Our team has been notified.
+        </p>
+        <a
+          href="/"
+          className="inline-flex items-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+        >
+          Return Home
+        </a>
+      </div>
+    </div>
+  );
+};
+
 const router = createBrowserRouter(
-  // eslint-disable-next-line no-unused-vars
   routes.map(({ Element, ErrorBoundary, ...props }) => ({
     ...props,
     element: <Element />,
+    errorElement: <GlobalErrorBoundary />,
   }))
 );
 
@@ -49,23 +69,28 @@ const RootNavbar: FC = function () {
       <Navbar.Brand href="/">
         <img
           alt="Logo"
-          src="https://raw.githubusercontent.com/laravelcompany/laravelcompany.com/refs/heads/main/public/logo-light.svg"
+          src="/logo.svg"
           className="mr-3 h-6 sm:h-9"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          UI Laravel Company
+          Laravel Company UI
         </span>
       </Navbar.Brand>
       <div className="flex gap-2 md:order-2">
-      
+
         <DarkThemeToggle />
-        <Navbar.Toggle theme={{icon: "h-5 w-5 shrink-0"}} />
+        <Navbar.Toggle theme={{ icon: "h-5 w-5 shrink-0" }} />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link active href="/">
-          <p>Home</p>
+        <Navbar.Link href="/">
+          Home
         </Navbar.Link>
-
+        <Navbar.Link href="/marketing-ui">
+          Marketing UI
+        </Navbar.Link>
+        <Navbar.Link href="/application-ui">
+          Application UI
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );

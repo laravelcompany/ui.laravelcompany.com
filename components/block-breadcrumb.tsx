@@ -15,7 +15,6 @@ const BlockPageBreadcrumb: FC<
   const category = categoriesOfBlocks.find((c) => c.categorySlug === categorySlug);
   const categoryTitle = category ? category.categoryTitle : "Marketing UI";
 
-  const capitalize = (s: string) => s ? s.charAt(0).toUpperCase() + s.slice(1) : "";
 
   return (
     <div className="px-4 mb-6 flex flex-col gap-3 pt-6 max-w-screen-2xl mx-auto">
@@ -23,7 +22,9 @@ const BlockPageBreadcrumb: FC<
         <Breadcrumb.Item href="/" icon={HiHome}>
           Blocks
         </Breadcrumb.Item>
-        <Breadcrumb.Item>{capitalize((categorySlug || "").replace("-", " ")) || categoryTitle}</Breadcrumb.Item>
+        <Breadcrumb.Item href={`/${categorySlug}`}>
+          {categoryTitle}
+        </Breadcrumb.Item>
         <Breadcrumb.Item>{title}</Breadcrumb.Item>
       </Breadcrumb>
       <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">

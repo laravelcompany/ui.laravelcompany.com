@@ -1,6 +1,5 @@
 import { Button } from "flowbite-react";
 import type { FC, PropsWithChildren } from "react";
-import { FaGithub } from "react-icons/fa";
 
 export interface BlockSectionProps extends PropsWithChildren {
   description: string;
@@ -28,8 +27,7 @@ const BlockSection: FC<BlockSectionProps> = function ({
           </p>
         </div>
         <Button href={githubLink} target="_blank" className="dark:hover:bg-gray-700 w-full md:w-auto flex-shrink-0 ml-0 hover:bg-gray-50 hover:text-primary-600 dark:hover:text-white" color="gray">
-          <FaGithub className="mr-3 h-5 w-5" />
-          View on GitHub
+          {title}
         </Button>
       </div>
       <div className="w-full border border-gray-100 dark:border-gray-800 rounded-lg">{children}</div>
