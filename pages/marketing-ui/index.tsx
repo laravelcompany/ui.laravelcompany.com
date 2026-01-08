@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import categoriesOfBlocks from "../../data/blocks-categories.json";
-import { BlockCategoryCardsSection } from "../index";
+import BlockCategoryCardsSection from "../../components/block-category-cards-section";
 
 const MarketingUIPage: FC = function () {
     const marketingCategories = categoriesOfBlocks.filter(

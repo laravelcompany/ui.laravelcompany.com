@@ -3,7 +3,7 @@ import type { FC, PropsWithChildren } from "react";
 
 export interface BlockSectionProps extends PropsWithChildren {
   description: string;
-  githubLink: string;
+  githubLink?: string;
   title: string;
 }
 
@@ -26,9 +26,11 @@ const BlockSection: FC<BlockSectionProps> = function ({
             {description}
           </p>
         </div>
-        <Button href={githubLink} target="_blank" className="dark:hover:bg-gray-700 w-full md:w-auto flex-shrink-0 ml-0 hover:bg-gray-50 hover:text-primary-600 dark:hover:text-white" color="gray">
-          {title}
-        </Button>
+        {githubLink && (
+          <Button href={githubLink} target="_blank" className="dark:hover:bg-gray-700 w-full md:w-auto flex-shrink-0 ml-0 hover:bg-gray-50 hover:text-primary-600 dark:hover:text-white" color="gray">
+            View Source
+          </Button>
+        )}
       </div>
       <div className="w-full border border-gray-100 dark:border-gray-800 rounded-lg">{children}</div>
     </section>

@@ -45,6 +45,15 @@
     "numComponents": 5
   },
   {
+    "title": "Chat Applications",
+    "categoryTitle": "Application UI",
+    "slug": "chat-applications",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 3
+  },
+  {
     "title": "Contact Forms",
     "categoryTitle": "Marketing UI",
     "slug": "contact-forms",
@@ -81,6 +90,24 @@
     "numComponents": 4
   },
   {
+    "title": "Dashboard Layouts",
+    "categoryTitle": "Application UI",
+    "slug": "dashboard-layouts",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 5
+  },
+  {
+    "title": "Data Tables",
+    "categoryTitle": "Application UI",
+    "slug": "data-tables",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 6
+  },
+  {
     "title": "CTA Sections",
     "categoryTitle": "Marketing UI",
     "slug": "cta-sections",
@@ -106,6 +133,24 @@
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal.svg",
     "numComponents": 6
+  },
+  {
+    "title": "Detail Pages (CRUD)",
+    "categoryTitle": "Application UI",
+    "slug": "detail-pages",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal.svg",
+    "numComponents": 5
+  },
+  {
+    "title": "Empty States",
+    "categoryTitle": "Application UI",
+    "slug": "empty-states",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/success-modal-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/success-modal.svg",
+    "numComponents": 4
   },
   {
     "title": "Event Schedule",
@@ -171,6 +216,15 @@
     "numComponents": 2
   },
   {
+    "title": "Loading States",
+    "categoryTitle": "Application UI",
+    "slug": "loading-states",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/success-modal-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/success-modal.svg",
+    "numComponents": 4
+  },
+  {
     "title": "Login Forms",
     "categoryTitle": "Marketing UI",
     "slug": "login-forms",
@@ -187,6 +241,15 @@
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/maintenance-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/maintenance.svg",
     "numComponents": 3
+  },
+  {
+    "title": "Notification Centers",
+    "categoryTitle": "Application UI",
+    "slug": "notification-centers",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal.svg",
+    "numComponents": 4
   },
   {
     "title": "Newsletter Sections",
@@ -243,6 +306,33 @@
     "numComponents": 5
   },
   {
+    "title": "Search & Filters",
+    "categoryTitle": "Application UI",
+    "slug": "search-filters",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 5
+  },
+  {
+    "title": "Settings Pages",
+    "categoryTitle": "Application UI",
+    "slug": "settings-pages",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 5
+  },
+  {
+    "title": "Sidebar Navigation",
+    "categoryTitle": "Application UI",
+    "slug": "sidebar-navigation",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/delete-modal.svg",
+    "numComponents": 4
+  },
+  {
     "title": "Social Proof",
     "categoryTitle": "Marketing UI",
     "slug": "social-proof",
@@ -259,6 +349,24 @@
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/success-modal-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/success-modal.svg",
     "numComponents": 5
+  },
+  {
+    "title": "Update Forms (CRUD)",
+    "categoryTitle": "Application UI",
+    "slug": "update-forms",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 4
+  },
+  {
+    "title": "Workflows",
+    "categoryTitle": "Application UI",
+    "slug": "workflows",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 3
   },
   {
     "title": "Team Sections",

@@ -1,89 +1,61 @@
-import { Badge } from "flowbite-react";
+import { Card } from "flowbite-react";
 import type { FC } from "react";
 import { Link } from "react-router-dom";
-import categoriesOfBlocks from "../data/blocks-categories.json";
 
 const HomePage: FC = function () {
   return (
-    <div className="p-4 dark:bg-gray-900 max-w-screen-2xl mx-auto">
-      <h1 className="mb-2 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white" title="Premium React Components for Laravel Developers">
-        Laravel Company UI
-      </h1>
-      <p className="mb-8 text-xl text-gray-500 dark:text-gray-400 max-w-3xl leading-relaxed">
-        A curated collection of premium React components and UI blocks designed for modern companies.
-        Highly customizable and built for performance, this collection is enhanced with custom features
-        and powered by our team at{" "}
-        <a href="https://laravelcompany.com/" className="text-blue-600 dark:text-blue-500 font-semibold hover:underline" title="Visit Laravel Development Services">
-          Laravel Development Services
-        </a>
-        .
-      </p>
-      <div className="lg:text-center">
-        <BlockCategoryCardsSection />
+    <div className="p-4 dark:bg-gray-900 max-w-screen-2xl mx-auto flex flex-col justify-center min-h-[80vh]">
+      <div className="text-center mb-16">
+        <h1 className="mb-4 text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+          Laravel Company
+        </h1>
+        <p className="text-xl text-gray-500 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
+          Inspired from Flowbite Premium React components designed for Laravel, built for modern conversion-driven web applications.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 max-w-5xl mx-auto w-full px-4">
+        {/* Marketing UI Card */}
+        <Link to="/marketing-ui" className="group">
+          <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+            <div className="flex flex-col items-center text-center p-6">
+              <div className="mb-4 p-4 bg-primary-50 dark:bg-gray-700 rounded-full group-hover:bg-primary-100 transition-colors">
+                <svg className="w-12 h-12 text-primary-600 dark:text-primary-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
+                  <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
+                </svg>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Marketing UI
+              </h2>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                Landing pages, feature sections, newsletters, and conversion-focused components for your marketing site.
+              </p>
+            </div>
+          </Card>
+        </Link>
+
+        {/* Application UI Card */}
+        <Link to="/application-ui" className="group">
+          <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+            <div className="flex flex-col items-center text-center p-6">
+              <div className="mb-4 p-4 bg-purple-50 dark:bg-gray-700 rounded-full group-hover:bg-purple-100 transition-colors">
+                <svg className="w-12 h-12 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path>
+                </svg>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Application UI
+              </h2>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                Dashboards, CRUD interfaces, forms, and complex layouts for building powerful web applications.
+              </p>
+            </div>
+          </Card>
+        </Link>
       </div>
     </div>
   );
 };
 
-const BlockCategoryCardsSection: FC<{ categories?: typeof categoriesOfBlocks }> = function ({
-  categories = categoriesOfBlocks
-}) {
-  return (
-    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-      {categories.map(
-        ({
-          categorySlug,
-          categoryTitle,
-          iconDark,
-          iconLight,
-          numComponents,
-          slug,
-          title,
-        }) => (
-          <Link
-            key={title}
-            to={`/${categorySlug}/${slug}`}
-            className="dark:hover:shadow-lg-light h-64 cursor-pointer rounded-lg border border-gray-100 bg-white hover:border-white hover:shadow-lg dark:border-gray-700 dark:bg-gray-900 dark:hover:border-gray-600 md:h-80"
-          >
-            <article className="flex items-center justify-between rounded-t-md border-b border-gray-200 bg-gray-50 px-5 py-2.5 dark:border-gray-700 dark:bg-gray-700">
-              <div className="text-left">
-                <h2 className="flex items-center text-base font-medium text-gray-900 dark:text-white">
-                  {title}
-                </h2>
-                <p className="text-gray-500">{numComponents} components</p>
-              </div>
-              <div className="text-gray-900 dark:text-white">
-                <Badge color="success" className="px-2">
-                  {categoryTitle}
-                </Badge>
-              </div>
-            </article>
-            <div className="relative flex h-[calc(100%_-_4rem)] items-center justify-center">
-              {iconDark && (
-                <div className="relative hidden h-auto w-full text-center dark:block">
-                  <img
-                    alt={`${title} thumbnail dark mode`}
-                    src={iconDark}
-                    className="mx-auto h-44 max-w-full md:h-52"
-                  />
-                </div>
-              )}
-              {iconLight && (
-                <div className="relative h-auto w-full text-center dark:hidden">
-                  <img
-                    alt={`${title} thumbnail dark mode`}
-                    src={iconLight}
-                    className="mx-auto h-44 max-w-full md:h-52"
-                  />
-                </div>
-              )}
-            </div>
-          </Link>
-        )
-      )}
-    </div>
-  );
-};
-
-export { BlockCategoryCardsSection };
 export default HomePage;
