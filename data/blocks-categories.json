@@ -387,12 +387,12 @@
     "numComponents": 5
   },
   {
-    "title": "User Onboarding",
+    "title": "E-commerce",
     "categoryTitle": "Marketing UI",
-    "slug": "user-onboarding",
+    "slug": "ecommerce",
     "categorySlug": "marketing-ui",
-    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/user-onboarding-dark.svg",
-    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/user-onboarding.svg",
-    "numComponents": 4
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/ecommerce-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/ecommerce.svg",
+    "numComponents": 5
   }
 ]
