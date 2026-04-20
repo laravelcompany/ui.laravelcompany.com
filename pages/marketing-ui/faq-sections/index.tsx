@@ -28,10 +28,10 @@ const AccordionFaq: FC = function () {
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">Frequently asked questions</h2>
         <Accordion collapseAll>
           <Accordion.Panel>
-            <Accordion.Title>What is Flowbite?</Accordion.Title>
+            <Accordion.Title>What is Laravel Company UI?</Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.
+                Laravel Company UI is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.
               </p>
             </Accordion.Content>
           </Accordion.Panel>
@@ -39,7 +39,7 @@ const AccordionFaq: FC = function () {
             <Accordion.Title>Is there a Figma file available?</Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Flowbite has a design system built for Figma that includes all the components and pages from the library.
+                Laravel Company UI has a design system built for Figma that includes all the components and pages from the library.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
                 Check out the <a href="https://flowbite.com/figma/" className="text-primary-600 hover:underline dark:text-primary-500">Figma design system</a>.
@@ -47,10 +47,10 @@ const AccordionFaq: FC = function () {
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
-            <Accordion.Title>What are the differences between Flowbite and Tailwind UI?</Accordion.Title>
+            <Accordion.Title>What are the differences between Laravel Company UI and Tailwind UI?</Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product.
+                The main difference is that the core components from Laravel Company UI are open source under the MIT license, whereas Tailwind UI is a paid product.
               </p>
             </Accordion.Content>
           </Accordion.Panel>

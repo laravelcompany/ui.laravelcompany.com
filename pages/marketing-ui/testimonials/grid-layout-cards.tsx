@@ -74,7 +74,7 @@ const GridLayoutTestimonialCards: FC = function () {
                   Speechless with how easy this was to integrate
                 </h3>
                 <p className="my-4">
-                  "I recently got my hands on Flowbite Pro, and holy crap, I'm
+                  "I recently got my hands on Laravel Company UI Pro, and holy crap, I'm
                   speechless with how easy this was to integrate within my
                   application. Most templates are a pain, code is scattered, and
                   near impossible to theme."
@@ -103,7 +103,7 @@ const GridLayoutTestimonialCards: FC = function () {
                   Efficient Collaborating
                 </h3>
                 <p className="my-4">
-                  "Flowbite is just awesome. It contains tons of predesigned
+                  "Laravel Company UI is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
                   dashboard. Perfect choice for your next SaaS application.”
                 </p>
@@ -129,7 +129,7 @@ const GridLayoutTestimonialCards: FC = function () {
                   Mindblowing workflow and variants
                 </h3>
                 <p className="my-4">
-                  "Flowbite provides a robust set of design tokens and
+                  "Laravel Company UI provides a robust set of design tokens and
                   components based on the popular Tailwind CSS framework.
                 </p>
                 <p className="my-4">
@@ -160,7 +160,7 @@ const GridLayoutTestimonialCards: FC = function () {
                   Perfect choice for a SaaS application
                 </h3>
                 <p className="my-4">
-                  "Flowbite provides a robust set of design tokens and
+                  "Laravel Company UI provides a robust set of design tokens and
                   components based on the popular Tailwind CSS framework.
                 </p>
                 <p className="my-4">
@@ -193,7 +193,7 @@ const GridLayoutTestimonialCards: FC = function () {
                   Solid foundation for any project
                 </h3>
                 <p className="my-4">
-                  "I recently got my hands on Flowbite Pro, and holy crap, I'm
+                  "I recently got my hands on Laravel Company UI Pro, and holy crap, I'm
                   speechless with how easy this was to integrate within my
                   application. Most templates are a pain, code is scattered, and
                   near impossible to theme."
@@ -220,7 +220,7 @@ const GridLayoutTestimonialCards: FC = function () {
                   Mindblowing workflow and variants
                 </h3>
                 <p className="my-4">
-                  "Flowbite is just awesome. It contains tons of predesigned
+                  "Laravel Company UI is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
                   dashboard. Perfect choice for your next SaaS application.”
                 </p>

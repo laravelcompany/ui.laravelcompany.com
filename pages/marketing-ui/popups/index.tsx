@@ -16,7 +16,7 @@ const AllPopups: FC = function () {
       />
       <BlockSection
         title="Default popup"
-        description="Use this example of a popup element to show a simple yes or no type of dialog to your website visitor based on the Modal component from Flowbite."
+        description="Use this example of a popup element to show a simple yes or no type of dialog to your website visitor based on the Modal component from Laravel Company UI."
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/popups/default.tsx"
       >
         <DefaultPopup />

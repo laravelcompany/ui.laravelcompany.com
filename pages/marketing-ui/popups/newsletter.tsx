@@ -12,7 +12,7 @@ const NewsletterPopup: FC = function () {
           <div className="flex items-start">
             <div>
               <h3 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                Join the Flowbite community
+                Join the Laravel Company UI community
               </h3>
               <p className="mb-4 text-base leading-relaxed text-gray-500 dark:text-gray-400">
                 Be the first to know about all the news and updates

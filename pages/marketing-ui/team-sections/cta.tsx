@@ -208,7 +208,7 @@ const CardsWithGridLayoutAndCTATeamSection: FC = function () {
               </svg>
               <span className="text-base font-normal text-gray-700 dark:text-gray-400">
                 <span className="font-semibold">
-                  Want to join the Flowbite team?
+                  Want to join the Laravel Company UI team?
                 </span>
                 &nbsp;We are growing our community.
               </span>

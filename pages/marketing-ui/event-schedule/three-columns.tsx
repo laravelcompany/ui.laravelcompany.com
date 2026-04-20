@@ -521,7 +521,7 @@ const EventScheduleTimelineThreeColumns: FC = function () {
                   </Badge>
                 </Timeline.Time>
                 <Timeline.Title>
-                  Flowbite - An Open Framework for Forensic Watermarking
+                  Laravel Company UI - An Open Framework for Forensic Watermarking
                 </Timeline.Title>
                 <Timeline.Body className="space-y-3">
                   <Avatar
@@ -534,7 +534,7 @@ const EventScheduleTimelineThreeColumns: FC = function () {
                         Micheal Gough
                       </p>
                       <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                        CTO at Flowbite
+                        CTO at Laravel Company UI
                       </p>
                     </div>
                   </Avatar>
@@ -548,7 +548,7 @@ const EventScheduleTimelineThreeColumns: FC = function () {
                         Karen Nelson
                       </p>
                       <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                        React developer at Flowbite
+                        React developer at Laravel Company UI
                       </p>
                     </div>
                   </Avatar>
@@ -574,7 +574,7 @@ const EventScheduleTimelineThreeColumns: FC = function () {
                   </Badge>
                 </Timeline.Time>
                 <Timeline.Title>
-                  Flowbite - An Open Framework for Forensic Watermarking
+                  Laravel Company UI - An Open Framework for Forensic Watermarking
                 </Timeline.Title>
                 <Timeline.Body className="space-y-3">
                   <Avatar
@@ -587,7 +587,7 @@ const EventScheduleTimelineThreeColumns: FC = function () {
                         Micheal Gough
                       </p>
                       <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                        CTO at Flowbite
+                        CTO at Laravel Company UI
                       </p>
                     </div>
                   </Avatar>
@@ -601,7 +601,7 @@ const EventScheduleTimelineThreeColumns: FC = function () {
                         Karen Nelson
                       </p>
                       <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                        React developer at Flowbite
+                        React developer at Laravel Company UI
                       </p>
                     </div>
                   </Avatar>

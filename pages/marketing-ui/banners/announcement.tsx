@@ -9,7 +9,7 @@ const AnnouncementBanner: FC = function () {
         <div className="mx-auto flex items-center gap-x-3">
           <Badge className="w-fit">New</Badge>
           <p className="text-sm font-medium text-gray-900 dark:text-white md:my-0">
-            We have launched Flowbite Blocks including over 120+ website
+            We have launched Laravel Company UI Blocks including over 120+ website
             sections!
           </p>
           <a

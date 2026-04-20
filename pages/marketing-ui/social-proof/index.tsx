@@ -45,7 +45,7 @@ const AllSocialProofs: FC = function () {
       </BlockSection>
       <BlockSection
         title="Carousel slider"
-        description="Use this carousel slider component from the Flowbite library next to the statistical numbers below to provide a visual impact."
+        description="Use this carousel slider component from the Laravel Company UI library next to the statistical numbers below to provide a visual impact."
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/social-proof/carousel-slider.tsx"
       >
         <CarouselSliderSocialProof />

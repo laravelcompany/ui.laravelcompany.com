@@ -40,7 +40,7 @@ const PromotionalPopup: FC = function () {
               Private Release Notes
             </h3>
             <p className="mb-2">
-              Flowbite is an open-source library of UI components based on the
+              Laravel Company UI is an open-source library of UI components based on the
               utility-first Tailwind CSS framework featuring dark mode support,
               a Figma design system, and more.
             </p>

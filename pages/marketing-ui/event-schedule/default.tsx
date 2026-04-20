@@ -67,7 +67,7 @@ const DefaultEventSchedule: FC = function () {
                   10:00 - 11:00
                 </Timeline.Time>
                 <Timeline.Title>
-                  Flowbite - An Open Framework for Forensic Watermarking
+                  Laravel Company UI - An Open Framework for Forensic Watermarking
                 </Timeline.Title>
               </Timeline.Content>
             </Timeline.Item>
@@ -116,7 +116,7 @@ const DefaultEventSchedule: FC = function () {
                   15:00 - 16:00
                 </Timeline.Time>
                 <Timeline.Title>
-                  Flowbite - An Open Framework for Forensic Watermarking
+                  Laravel Company UI - An Open Framework for Forensic Watermarking
                 </Timeline.Title>
               </Timeline.Content>
             </Timeline.Item>

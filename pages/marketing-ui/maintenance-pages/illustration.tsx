@@ -21,7 +21,7 @@ const IllustrationMaintenancePage: FC = function () {
               Down for Maintenance
             </h1>
             <p className="mx-auto max-w-xl text-gray-500 dark:text-gray-400 md:text-lg lg:mx-0 xl:mb-8 xl:text-xl">
-              Flowbite is down for planned maintenance. We'll be back with the
+              Laravel Company UI is down for planned maintenance. We'll be back with the
               latest components and sections this week. Follow us on
               <a
                 href="#"

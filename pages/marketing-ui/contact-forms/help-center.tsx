@@ -50,7 +50,7 @@ const ContactFormWithHelpCenter: FC = function () {
             <ul className="mb-4 space-y-3 text-primary-600 dark:text-primary-500">
               <li>
                 <a href="#" className="hover:underline">
-                  Flowbite plans &amp; prices
+                  Laravel Company UI plans &amp; prices
                 </a>
               </li>
               <li>
@@ -60,7 +60,7 @@ const ContactFormWithHelpCenter: FC = function () {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  I can't log in to Flowbite
+                  I can't log in to Laravel Company UI
                 </a>
               </li>
               <li>
@@ -70,14 +70,14 @@ const ContactFormWithHelpCenter: FC = function () {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Student Discount on Flowbite
+                  Student Discount on Laravel Company UI
                 </a>
               </li>
             </ul>
           </Card>
           <Card>
             <h3 className="mb-4 text-xl font-extrabold dark:text-white">
-              Using Flowbite
+              Using Laravel Company UI
             </h3>
             <ul className="mb-4 space-y-3 text-primary-600 dark:text-primary-500">
               <li>
@@ -87,7 +87,7 @@ const ContactFormWithHelpCenter: FC = function () {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Devices to watch Flowbite
+                  Devices to watch Laravel Company UI
                 </a>
               </li>
               <li>
@@ -109,7 +109,7 @@ const ContactFormWithHelpCenter: FC = function () {
           </Card>
           <Card>
             <h3 className="mb-4 text-xl font-extrabold dark:text-white">
-              What’s on Flowbite
+              What’s on Laravel Company UI
             </h3>
             <ul className="mb-4 space-y-3 text-primary-600 dark:text-primary-500">
               <li>
@@ -162,7 +162,7 @@ const ContactFormWithHelpCenter: FC = function () {
               Points of contact
             </h3>
             <h4 className="mb-1 font-medium text-gray-900 dark:text-white">
-              U.S. Flowbite
+              U.S. Laravel Company UI
             </h4>
             <address className="non-italic text-sm font-normal text-gray-500">
               11350 McCormick Rd, EP III, Suite 200,
@@ -240,7 +240,7 @@ const ContactFormWithHelpCenter: FC = function () {
                   <option selected>Select a topic</option>
                   <option value="US">Switch plans and add-ons</option>
                   <option value="CA">Billing &amp; Invoice</option>
-                  <option value="FR">I can't log in to Flowbite</option>
+                  <option value="FR">I can't log in to Laravel Company UI</option>
                   <option value="DE">Parental controls</option>
                 </Select>
               </div>

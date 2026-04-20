@@ -9,7 +9,7 @@ const AppScreenshotWithCTAsHero: FC = function () {
           We invest in the world’s potential
         </h1>
         <p className="mb-8 text-gray-500 dark:text-gray-400 sm:px-16 md:text-lg lg:text-xl xl:px-48">
-          Here at Flowbite we focus on markets where technology, innovation, and
+          Here at Laravel Company UI we focus on markets where technology, innovation, and
           capital can unlock long-term value and drive economic growth.
         </p>
         <div className="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">

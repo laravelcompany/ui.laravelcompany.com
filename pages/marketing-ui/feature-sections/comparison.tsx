@@ -7,7 +7,7 @@ const ComparisonCardsFeatureSection: FC = function () {
         <div className="grid space-y-8 lg:grid-cols-2 lg:gap-12 lg:space-y-0">
           <div>
             <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-              Compare Flowbite to other platforms on the market
+              Compare Laravel Company UI to other platforms on the market
             </h2>
             <p className="mb-4 text-gray-500 dark:text-gray-400 sm:text-xl">
               Here we focus on markets where technology, innovation, and capital
@@ -17,7 +17,7 @@ const ComparisonCardsFeatureSection: FC = function () {
               href="#"
               className="inline-flex items-center font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400 sm:text-lg"
             >
-              Learn what makes Flowbite different&nbsp;
+              Learn what makes Laravel Company UI different&nbsp;
               <svg
                 className="ml-1 h-5 w-5"
                 fill="currentColor"
@@ -42,7 +42,7 @@ const ComparisonCardsFeatureSection: FC = function () {
                   Simplicity and Affordability
                 </span>
                 <span className="text-xl font-semibold text-primary-600 dark:text-primary-500">
-                  Flowbite vs Google
+                  Laravel Company UI vs Google
                 </span>
               </div>
               <svg

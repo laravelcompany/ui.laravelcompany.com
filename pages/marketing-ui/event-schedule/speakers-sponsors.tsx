@@ -101,7 +101,7 @@ const EventScheduleSpeakersSponsors: FC = function () {
                 </Timeline.Time>
                 <Timeline.Content className="md:border-l border-gray-300 dark:border-gray-600 md:pl-3 pb-6">
                   <Timeline.Title>
-                    Flowbite - An Open Framework for Forensic Watermarking
+                    Laravel Company UI - An Open Framework for Forensic Watermarking
                   </Timeline.Title>
                   <Timeline.Body className="space-y-3">
                     <p className="text-gray-500 dark:text-gray-400 text-base font-normal">
@@ -118,7 +118,7 @@ const EventScheduleSpeakersSponsors: FC = function () {
                             Micheal Gough
                           </p>
                           <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                            CTO at Flowbite
+                            CTO at Laravel Company UI
                           </p>
                         </div>
                       </Avatar>
@@ -133,7 +133,7 @@ const EventScheduleSpeakersSponsors: FC = function () {
                             Karen Nelson
                           </p>
                           <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                            React developer at Flowbite
+                            React developer at Laravel Company UI
                           </p>
                         </div>
                       </Avatar>
@@ -399,7 +399,7 @@ const EventScheduleSpeakersSponsors: FC = function () {
                 </Timeline.Time>
                 <Timeline.Content className="md:border-l border-gray-300 dark:border-gray-600 md:pl-3 pb-6">
                   <Timeline.Title>
-                    Flowbite - An Open Framework for Forensic Watermarking
+                    Laravel Company UI - An Open Framework for Forensic Watermarking
                   </Timeline.Title>
                   <Timeline.Body className="space-y-3">
                     <p className="text-gray-500 dark:text-gray-400 text-base font-normal">
@@ -416,7 +416,7 @@ const EventScheduleSpeakersSponsors: FC = function () {
                             Micheal Gough
                           </p>
                           <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                            CTO at Flowbite
+                            CTO at Laravel Company UI
                           </p>
                         </div>
                       </Avatar>
@@ -431,7 +431,7 @@ const EventScheduleSpeakersSponsors: FC = function () {
                             Karen Nelson
                           </p>
                           <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                            React developer at Flowbite
+                            React developer at Laravel Company UI
                           </p>
                         </div>
                       </Avatar>

@@ -34,7 +34,7 @@ const IllustrationWithStatisticsSocialProof: FC = function () {
                   $76 billion
                 </p>
                 <p className="text-gray-500 dark:text-gray-400">
-                  24h trading volume on Flowbite exchange
+                  24h trading volume on Laravel Company UI exchange
                 </p>
               </div>
             </div>
@@ -59,7 +59,7 @@ const IllustrationWithStatisticsSocialProof: FC = function () {
                   90%
                 </p>
                 <p className="text-gray-500 dark:text-gray-400">
-                  of U.S adults have bought from businesses using Flowbite
+                  of U.S adults have bought from businesses using Laravel Company UI
                 </p>
               </div>
             </div>

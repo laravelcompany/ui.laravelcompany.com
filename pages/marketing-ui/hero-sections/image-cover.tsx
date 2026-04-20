@@ -10,7 +10,7 @@ const CoverImageWithCTAsHero: FC = function () {
             Discover new product and best possibilities
           </h1>
           <p className="mb-6 text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-            Here at Flowbite we focus on markets where technology, innovation,
+            Here at Laravel Company UI we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
           <div className="items-center gap-16 sm:flex">
@@ -31,7 +31,7 @@ const CoverImageWithCTAsHero: FC = function () {
                 28 November 2021
               </h2>
               <p className="mb-4 font-light">
-                Join us at Flowbite 2021 to understand what’s next as the global
+                Join us at Laravel Company UI 2021 to understand what’s next as the global
                 tech and startup ecosystem, rethinks the future of everything.
               </p>
               <Button href="#" className="w-fit">

@@ -69,7 +69,7 @@ const CarouselSliderTestimonial: FC = function () {
             <div>
               <blockquote>
                 <p className="text-lg font-medium text-gray-900 dark:text-white sm:text-2xl">
-                  "Flowbite is just awesome. It contains tons of predesigned
+                  "Laravel Company UI is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
                   dashboard. Perfect choice for your next SaaS application."
                 </p>
@@ -95,7 +95,7 @@ const CarouselSliderTestimonial: FC = function () {
                 <p className="text-lg font-medium text-gray-900 dark:text-white sm:text-2xl">
                   "As someone who mainly designs in the browser, I've been a
                   casual user of Figma, but as soon as I saw and started playing
-                  with Flowbite my mind was blown and became so productive."
+                  with Laravel Company UI my mind was blown and became so productive."
                 </p>
               </blockquote>
               <figcaption className="mt-6 flex items-center justify-center space-x-1 md:space-x-3">
@@ -119,7 +119,7 @@ const CarouselSliderTestimonial: FC = function () {
                 <p className="text-lg font-medium text-gray-900 dark:text-white sm:text-2xl">
                   "As someone who mainly designs in the browser, I've been a
                   casual user of Figma, but as soon as I saw and started playing
-                  with Flowbite my mind was blown and became so productive."
+                  with Laravel Company UI my mind was blown and became so productive."
                 </p>
               </blockquote>
               <figcaption className="mt-6 flex items-center justify-center space-x-1 md:space-x-3">
@@ -141,7 +141,7 @@ const CarouselSliderTestimonial: FC = function () {
             <div>
               <blockquote>
                 <p className="text-lg font-medium text-gray-900 dark:text-white sm:text-2xl">
-                  "Flowbite has code in one place and I'm not joking when I say
+                  "Laravel Company UI has code in one place and I'm not joking when I say
                   it took me a matter of minutes to copy the code, customise it
                   and integrate within a Laravel + Vue application."
                 </p>

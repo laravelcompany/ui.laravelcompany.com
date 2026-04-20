@@ -153,7 +153,7 @@ const LogoMaintenancePage: FC = function () {
               </linearGradient>
             </defs>
           </svg>
-          Flowbite
+          Laravel Company UI
         </a>
         <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:mb-6 xl:text-6xl">
           We've got something special for you

@@ -10,7 +10,7 @@ const SignUpFormWithCTAHero: FC = function () {
             Discover new product and best possibilities
           </h1>
           <p className="mb-6 max-w-2xl text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-            Here at Flowbite we focus on markets where technology, innovation,
+            Here at Laravel Company UI we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
           <Button className="w-fit [&>span]:items-center" size="lg">

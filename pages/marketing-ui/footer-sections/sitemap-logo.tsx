@@ -8,9 +8,9 @@ const SitemapLogoFooterSection: FC = function () {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Footer.Brand
-              alt="Flowbite logo"
+              alt="Laravel Company UI logo"
               href="https://flowbite.com"
-              name="Flowbite"
+              name="Laravel Company UI"
               src="https://flowbite.com/docs/images/logo.svg"
             />
           </div>
@@ -18,7 +18,7 @@ const SitemapLogoFooterSection: FC = function () {
             <div>
               <Footer.Title title="Resources" className="text-gray-800" />
               <Footer.LinkGroup className="text-base text-gray-600 dark:text-gray-400" col>
-                <Footer.Link href="https://flowbite.com">Flowbite</Footer.Link>
+                <Footer.Link href="https://flowbite.com">Laravel Company UI</Footer.Link>
                 <Footer.Link href="https://tailwindcss.com/">
                   Tailwind CSS
                 </Footer.Link>
@@ -47,7 +47,7 @@ const SitemapLogoFooterSection: FC = function () {
         <Footer.Divider />
         <div className="sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright
-            by="Flowbite™. All Rights Reserved."
+            by="Laravel Company UI™. All Rights Reserved."
             href="https://flowbite.com"
             year={2023}
           />

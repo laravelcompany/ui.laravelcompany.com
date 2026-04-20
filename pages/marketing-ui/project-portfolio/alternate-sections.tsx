@@ -10,7 +10,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
             Our work
           </h2>
           <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-            Flowbite helps you connect with friends, family and communities of
+            Laravel Company UI helps you connect with friends, family and communities of
             people who share your interests.
           </p>
         </div>
@@ -31,7 +31,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
             <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
               <div className="space-y-3">
                 <h3 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl dark:text-white">
-                  Flowbite's dashboard
+                  Laravel Company UI's dashboard
                 </h3>
                 <a
                   href="https://flowbite.com"
@@ -51,7 +51,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
                   </svg>
                 </a>
                 <p className="text-base font-normal text-gray-500 sm:text-lg dark:text-gray-400">
-                  Flowbite helps you connect with friends, family and
+                  Laravel Company UI helps you connect with friends, family and
                   communities of people who share your interests. Connecting
                   with your friends and family as well as discovering new ones
                   is easy with features like Groups.
@@ -148,7 +148,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
                   </svg>
                 </a>
                 <p className="text-base font-normal text-gray-500 sm:text-lg dark:text-gray-400">
-                  Flowbite helps you connect with friends, family and
+                  Laravel Company UI helps you connect with friends, family and
                   communities of people who share your interests. Connecting
                   with your friends and family as well as discovering new ones
                   is easy with features like Groups.
@@ -238,7 +238,7 @@ const ProjectPortfolioAlternateSections: FC = function () {
                   </svg>
                 </a>
                 <p className="text-base font-normal text-gray-500 sm:text-lg dark:text-gray-400">
-                  Flowbite helps you connect with friends, family and
+                  Laravel Company UI helps you connect with friends, family and
                   communities of people who share your interests. Connecting
                   with your friends and family as well as discovering new ones
                   is easy with features like Groups.

@@ -153,7 +153,7 @@ const SocialMediaIconsFooterSection: FC = function () {
                 </linearGradient>
               </defs>
             </svg>
-            Flowbite
+            Laravel Company UI
           </a>
           <ul className="mb-4 flex flex-wrap items-center text-sm text-gray-500 dark:text-gray-400 lg:mb-0">
             <li>
@@ -217,7 +217,7 @@ const SocialMediaIconsFooterSection: FC = function () {
           <span className="block text-sm text-gray-500 dark:text-gray-400">
             © 2021-2022&nbsp;
             <a href="https://flowbite.com" className="hover:underline">
-              Flowbite™
+              Laravel Company UI™
             </a>
             . All Rights Reserved.
           </span>

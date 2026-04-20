@@ -29,7 +29,7 @@ const FeatureIconsAndCTASection: FC = function () {
             </h3>
             <p className="mb-4 text-gray-500 dark:text-gray-400">
               Enterprise tools cost more, are difficult to use, and take longer
-              to implement. According to G2, Flowbite is the easiest-to-use
+              to implement. According to G2, Laravel Company UI is the easiest-to-use
               tool, with the fastest time to ROI.
             </p>
           </div>
@@ -53,7 +53,7 @@ const FeatureIconsAndCTASection: FC = function () {
             </h3>
             <p className="mb-4 text-gray-500 dark:text-gray-400">
               Enterprise tools cost more, are difficult to use, and take longer
-              to implement. According to G2, Flowbite is the easiest-to-use
+              to implement. According to G2, Laravel Company UI is the easiest-to-use
               tool, with the fastest time to ROI.
             </p>
           </div>
@@ -63,7 +63,7 @@ const FeatureIconsAndCTASection: FC = function () {
             href="#"
             className="inline-flex items-center font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400"
           >
-            Learn what makes Flowbite different&nbsp;
+            Learn what makes Laravel Company UI different&nbsp;
             <svg
               className="ml-1 h-5 w-5"
               fill="currentColor"

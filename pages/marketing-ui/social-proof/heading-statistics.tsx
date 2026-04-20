@@ -17,7 +17,7 @@ const HeadingWithStatisticsSocialProof: FC = function () {
               $76 bilion
             </dt>
             <dd className="text-gray-500 dark:text-gray-400">
-              24h trading volume on Flowbite exchange
+              24h trading volume on Laravel Company UI exchange
             </dd>
           </div>
           <div className="flex flex-col">
@@ -31,7 +31,7 @@ const HeadingWithStatisticsSocialProof: FC = function () {
               90 milion
             </dt>
             <dd className="text-gray-500 dark:text-gray-400">
-              Registered users who trust Flowbite&nbsp;
+              Registered users who trust Laravel Company UI&nbsp;
             </dd>
           </div>
           <div className="flex flex-col">

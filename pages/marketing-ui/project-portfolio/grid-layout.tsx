@@ -10,7 +10,7 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             Custom works
           </h2>
           <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-            Flowbite helps you connect with friends, family and communities of
+            Laravel Company UI helps you connect with friends, family and communities of
             people who share your interests.
           </p>
         </div>
@@ -49,7 +49,7 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
                 </a>
               </h3>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
             </div>
@@ -107,7 +107,7 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
                 </a>
               </h3>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
             </div>
@@ -165,7 +165,7 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
                 </a>
               </h3>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
             </div>
@@ -219,11 +219,11 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
               </Badge>
               <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
                 <a href="#" className="hover:underline">
-                  Flowbite's dashboard
+                  Laravel Company UI's dashboard
                 </a>
               </h3>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
             </div>
@@ -281,7 +281,7 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
                 </a>
               </h3>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
             </div>
@@ -339,7 +339,7 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
                 </a>
               </h3>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
             </div>

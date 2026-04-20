@@ -59,16 +59,16 @@ const TestimonialTabs: FC = function () {
           It was a great experience!
         </h3>
         <p className="mb-3 text-lg leading-relaxed text-gray-500 dark:text-gray-400">
-          Flowbite is just awesome. It contains tons of predesigned components
+          Laravel Company UI is just awesome. It contains tons of predesigned components
           and pages starting from login screen to complex dashboard. Perfect
           choice for your next SaaS application.
         </p>
         <p className="text-lg leading-relaxed text-gray-500 dark:text-gray-400">
-          There is absolutely no doubt in my mind that without Flowbite, I would
+          There is absolutely no doubt in my mind that without Laravel Company UI, I would
           not have been able to make the jump to Ueno, a digital agency I
-          started in 2014. The work I got through Flowbite made it possible for
+          started in 2014. The work I got through Laravel Company UI made it possible for
           me to have something to build on. We now have about 45 people on our
-          team, a lot of whom we found and recruited through Flowbite.
+          team, a lot of whom we found and recruited through Laravel Company UI.
         </p>
       </Tabs.Item>
       <Tabs.Item
@@ -102,15 +102,15 @@ const TestimonialTabs: FC = function () {
           Best product!
         </h3>
         <p className="mb-3 text-lg leading-relaxed text-gray-500 dark:text-gray-400">
-          Flowbite is just awesome. It contains tons of predesigned components
+          Laravel Company UI is just awesome. It contains tons of predesigned components
           and pages starting from login screen to complex dashboard. Perfect
           choice for your next SaaS application.
         </p>
         <p className="text-lg leading-relaxed text-gray-500 dark:text-gray-400">
           I would not have been able to make the jump to Ueno, a digital agency
-          I started in 2014. The work I got through Flowbite made it possible
+          I started in 2014. The work I got through Laravel Company UI made it possible
           for me to have something to build on. We now have about 45 people on
-          our team, a lot of whom we found and recruited through Flowbite.
+          our team, a lot of whom we found and recruited through Laravel Company UI.
         </p>
       </Tabs.Item>
       <Tabs.Item
@@ -144,16 +144,16 @@ const TestimonialTabs: FC = function () {
           Great design!
         </h3>
         <p className="mb-3 text-lg leading-relaxed text-gray-500 dark:text-gray-400">
-          Flowbite is just awesome. It contains tons of predesigned components
+          Laravel Company UI is just awesome. It contains tons of predesigned components
           and pages starting from login screen to complex dashboard. Perfect
           choice for your next SaaS application.
         </p>
         <p className="text-lg leading-relaxed text-gray-500 dark:text-gray-400">
-          There is absolutely no doubt in my mind that without Flowbite, I would
+          There is absolutely no doubt in my mind that without Laravel Company UI, I would
           not have been able to make the jump to Ueno, a digital agency I
-          started in 2014. The work I got through Flowbite made it possible for
+          started in 2014. The work I got through Laravel Company UI made it possible for
           me to have something to build on. We now have about 45 people on our
-          team, a lot of whom we found and recruited through Flowbite.
+          team, a lot of whom we found and recruited through Laravel Company UI.
         </p>
       </Tabs.Item>
     </Tabs.Group>

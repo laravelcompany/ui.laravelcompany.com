@@ -10,12 +10,12 @@ const InformationalBanner: FC = function () {
         <div className="sm:flex xl:items-center">
           <HiInformationCircle className="mr-3 h-5 w-5 text-primary-600 hidden md:inline flex-shrink-0" />
           <p className="mb-4 text-sm text-gray-500 dark:text-gray-300 md:mb-0">
-            Flowbite will no longer process new data in standard properties
+            Laravel Company UI will no longer process new data in standard properties
             beginning&nbsp;
             <span className="font-semibold text-gray-900 dark:text-white">
               July 1, 2023
             </span>
-            . Prepare now by setting up and switching over to a Flowbite 4
+            . Prepare now by setting up and switching over to a Laravel Company UI 4
             property.
           </p>
         </div>

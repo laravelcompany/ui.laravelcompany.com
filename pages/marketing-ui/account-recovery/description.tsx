@@ -45,7 +45,7 @@ const DescriptionAccountRecovery: FC = function () {
                   htmlFor="terms-description"
                   className="text-gray-500 dark:text-gray-300"
                 >
-                  I agree to Flowbite’s&nbsp;
+                  I agree to Laravel Company UI’s&nbsp;
                   <a
                     href="#"
                     className="font-medium text-primary-600 hover:underline dark:text-primary-500"
@@ -225,14 +225,14 @@ const DescriptionAccountRecovery: FC = function () {
                   </linearGradient>
                 </defs>
               </svg>
-              Flowbite
+              Laravel Company UI
             </a>
             <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-white xl:text-5xl">
               Explore the world’s leading design portfolios.
             </h1>
             <p className="mb-4 text-blue-200 lg:mb-8">
               Millions of designers and agencies around the world showcase their
-              portfolio work on Flowbite - the home to the world’s best design
+              portfolio work on Laravel Company UI - the home to the world’s best design
               and creative professionals.
             </p>
             <div className="flex items-center divide-x divide-blue-500">

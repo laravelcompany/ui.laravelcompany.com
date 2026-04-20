@@ -14,7 +14,7 @@ const FinancialExchangeCryptoHero: FC = function () {
             <span className="font-medium text-gray-900 dark:text-white">
               600+
             </span>
-            &nbsp;cryptocurrencies on Flowbite
+            &nbsp;cryptocurrencies on Laravel Company UI
           </p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-8 xl:grid-cols-5">

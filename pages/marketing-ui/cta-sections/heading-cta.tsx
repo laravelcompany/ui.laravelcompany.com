@@ -10,7 +10,7 @@ const HeadingWithCTAButtonSection: FC = function () {
             Start your free trial today
           </h2>
           <p className="mb-6 text-gray-500 dark:text-gray-400 md:text-lg">
-            Try Flowbite Platform for 30 days. No credit card required.
+            Try Laravel Company UI Platform for 30 days. No credit card required.
           </p>
           <Button color="info" href="#" className="w-fit">
             Free trial for 30 days

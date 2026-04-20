@@ -45,7 +45,7 @@ const AllHeroSections: FC = function () {
       </BlockSection>
       <BlockSection
         title="Search bar with datepicker"
-        description="This example can be used to provide a search and booking functionality based on the datepicker plugin from the Flowbite library."
+        description="This example can be used to provide a search and booking functionality based on the datepicker plugin from the Laravel Company UI library."
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/hero-sections/video-image-heading.tsx"
       >
         <SearchBarDatepickerHeroSection />

@@ -304,12 +304,12 @@ const PreFooterCTASection: FC = function () {
                 </linearGradient>
               </defs>
             </svg>
-            Flowbite
+            Laravel Company UI
           </a>
           <span className="mb-2 block text-sm text-gray-500 dark:text-gray-400 lg:mb-0">
             © 2021-2022&nbsp;
             <a href="#" className="hover:underline">
-              Flowbite™
+              Laravel Company UI™
             </a>
             . All Rights Reserved.
           </span>

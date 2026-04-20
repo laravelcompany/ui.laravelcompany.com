@@ -34,7 +34,7 @@ const AllTestimonials: FC = function () {
       </BlockSection>
       <BlockSection
         title="Carousel slider"
-        description="Show more testimonial items inside a carousel slider component from the Flowbite library and showcase a text, avatar, name, and occupation."
+        description="Show more testimonial items inside a carousel slider component from the Laravel Company UI library and showcase a text, avatar, name, and occupation."
       >
         <CarouselSliderTestimonial />
       </BlockSection>

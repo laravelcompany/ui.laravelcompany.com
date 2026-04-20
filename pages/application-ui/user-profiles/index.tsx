@@ -77,7 +77,7 @@ const ProfileCard: FC = function () {
                 <div className="space-y-3 px-4 pb-4">
                     <div className="flex items-center text-gray-500 dark:text-gray-400">
                         <HiBriefcase className="mr-2 h-5 w-5" />
-                        <span>Flowbite</span>
+                        <span>Laravel Company UI</span>
                     </div>
                     <div className="flex items-center text-gray-500 dark:text-gray-400">
                         <HiLocationMarker className="mr-2 h-5 w-5" />

@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import FlowbiteLogoSVG from "../../../components/flowbite-logo";
+import Laravel Company UILogoSVG from "../../../components/flowbite-logo";
 import { Avatar, Button, Checkbox, Label, TextInput } from "flowbite-react";
 
 const RegisterFormWithDescription: FC = function () {
@@ -132,8 +132,8 @@ const RegisterFormWithDescription: FC = function () {
                     htmlFor="terms-description"
                     className="text-gray-500 dark:text-gray-300"
                   >
-                    By signing up, you are creating a Flowbite account, and you
-                    agree to Flowbite’s&nbsp;
+                    By signing up, you are creating a Laravel Company UI account, and you
+                    agree to Laravel Company UI’s&nbsp;
                     <a
                       className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                       href="#"
@@ -189,15 +189,15 @@ const RegisterFormWithDescription: FC = function () {
               href="#"
               className="mb-4 flex items-center text-2xl font-semibold text-white"
             >
-              <FlowbiteLogoSVG />
-              Flowbite
+              <Laravel Company UILogoSVG />
+              Laravel Company UI
             </a>
             <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-white xl:text-5xl">
               Explore the world’s leading design portfolios.
             </h1>
             <p className="mb-4 text-primary-200 lg:mb-8">
               Millions of designers and agencies around the world showcase their
-              portfolio work on Flowbite - the home to the world’s best design
+              portfolio work on Laravel Company UI - the home to the world’s best design
               and creative professionals.
             </p>
             <div className="flex items-center divide-x divide-primary-500">

@@ -22,7 +22,7 @@ const DefaultProjectPortfolio: FC = function () {
               Official website
             </h3>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-              Flowbite helps you connect with friends, family and communities of
+              Laravel Company UI helps you connect with friends, family and communities of
               people who share your interests.
             </p>
             <Button className="inline-flex">
@@ -50,7 +50,7 @@ const DefaultProjectPortfolio: FC = function () {
               Management system
             </h3>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-              Flowbite helps you connect with friends, family and communities of
+              Laravel Company UI helps you connect with friends, family and communities of
               people who share your interests.
             </p>
             <Button className="inline-flex">
@@ -78,7 +78,7 @@ const DefaultProjectPortfolio: FC = function () {
               Logo design
             </h3>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-              Flowbite helps you connect with friends, family and communities of
+              Laravel Company UI helps you connect with friends, family and communities of
               people who share your interests.
             </p>
             <Button className="inline-flex">

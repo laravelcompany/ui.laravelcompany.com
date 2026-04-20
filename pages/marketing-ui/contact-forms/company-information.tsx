@@ -35,7 +35,7 @@ const ContactFormWithCompanyInformation: FC = function () {
                 Company information:
               </h3>
               <p className="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">
-                Flowbite LLC
+                Laravel Company UI LLC
                 <br />
                 Tax id: USXXXXXX
               </p>
@@ -302,7 +302,7 @@ const ContactFormWithCompanyInformation: FC = function () {
                     title=""
                     className="font-medium text-gray-900 underline hover:no-underline dark:text-white"
                   >
-                    Flowbite's Terms of Service
+                    Laravel Company UI's Terms of Service
                   </a>
                   &nbsp;and&nbsp;
                   <a

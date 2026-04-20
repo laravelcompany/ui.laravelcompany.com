@@ -10,7 +10,7 @@ const HomePage: FC = function () {
           Laravel Company
         </h1>
         <p className="text-xl text-gray-500 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-          Inspired from Flowbite Premium React components designed for Laravel, built for modern conversion-driven web applications.
+          Inspired from Laravel Company UI Premium React components designed for Laravel, built for modern conversion-driven web applications.
         </p>
       </div>
 

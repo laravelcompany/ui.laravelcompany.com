@@ -10,7 +10,7 @@ const SearchBarDatepickerHeroSection: FC = function () {
             Every home is a destination
           </h1>
           <p className="mb-6 text-gray-300 lg:mb-8 md:text-lg lg:text-xl">
-            The best of Luxury Retreats is now Flowbite Luxe—offering the
+            The best of Luxury Retreats is now Laravel Company UI Luxe—offering the
             world's most extraordinary homes with the highest standard of
             service.
           </p>

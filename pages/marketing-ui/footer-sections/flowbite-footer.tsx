@@ -1,6 +1,6 @@
 import type { FC } from "react";
 
-const FlowbiteFooterSection: FC = function () {
+const Laravel Company UIFooterSection: FC = function () {
   return (
     <footer className="bg-gray-50 dark:bg-gray-800">
       <div className="lg:-10 mx-auto max-w-screen-xl p-4 py-6 md:p-8">
@@ -154,10 +154,10 @@ const FlowbiteFooterSection: FC = function () {
                   </linearGradient>
                 </defs>
               </svg>
-              Flowbite
+              Laravel Company UI
             </a>
             <p className="my-4 text-gray-500 dark:text-gray-400">
-              Flowbite is a open-source library of over 400+ web components and
+              Laravel Company UI is a open-source library of over 400+ web components and
               interactive elements built with the utility classes from Tailwind
               CSS.
             </p>
@@ -363,7 +363,7 @@ const FlowbiteFooterSection: FC = function () {
         <span className="block text-center text-sm text-gray-500 dark:text-gray-400">
           © 2021-2022&nbsp;
           <a href="#" className="hover:underline">
-            Flowbite™
+            Laravel Company UI™
           </a>
           . All Rights Reserved.
         </span>
@@ -372,4 +372,4 @@ const FlowbiteFooterSection: FC = function () {
   );
 };
 
-export default FlowbiteFooterSection;
+export default Laravel Company UIFooterSection;

@@ -165,7 +165,7 @@ const AdvancedCreateUserForm: FC = function () {
                 className="inline-flex items-center mb-2 text-sm font-medium text-gray-900 dark:text-white"
               >
                 User Role
-                <Tooltip content="Flowbite provides 7 predefined roles: Owner, Admin, Editor, Contributor and Viewer. Assign the most suitable role to each user, giving them the most appropriate level of control.">
+                <Tooltip content="Laravel Company UI provides 7 predefined roles: Owner, Admin, Editor, Contributor and Viewer. Assign the most suitable role to each user, giving them the most appropriate level of control.">
                   <button className="ml-1">
                     <svg
                       aria-hidden

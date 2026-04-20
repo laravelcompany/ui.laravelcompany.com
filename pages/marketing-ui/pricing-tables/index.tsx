@@ -26,7 +26,7 @@ const AllPricingTables: FC = function () {
       </BlockSection>
       <BlockSection
         title="Tabs selector pricing cards"
-        description="Use this advanced example to show the pricing plan based on which tab is being activated by the website visitor based on the Tabs component from the Flowbite library."
+        description="Use this advanced example to show the pricing plan based on which tab is being activated by the website visitor based on the Tabs component from the Laravel Company UI library."
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/pricing-tables/default.tsx"
       >
         <TabsSelectorPricingCards />
@@ -61,7 +61,7 @@ const AllPricingTables: FC = function () {
       </BlockSection>
       <BlockSection
         title="Pricing plan with toggle switch"
-        description="Use this example to switch the pricing plan based on a monthly or yearly plan based on the toggle switch component from the Flowbite library."
+        description="Use this example to switch the pricing plan based on a monthly or yearly plan based on the toggle switch component from the Laravel Company UI library."
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/pricing-tables/pricing-toggle.tsx"
       >
         <ToggleSwitchPricingTable />

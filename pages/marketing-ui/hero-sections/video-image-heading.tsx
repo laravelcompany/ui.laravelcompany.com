@@ -11,7 +11,7 @@ const VisualImageWithHeadingHero: FC = function () {
           </h1>
           <p className="mb-6 max-w-2xl text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
             From checkout to global sales tax compliance, companies around the
-            world use Flowbite to simplify their payment stack.
+            world use Laravel Company UI to simplify their payment stack.
           </p>
           <div className="flex w-fit items-center gap-5">
             <Button color="info" href="#" size="lg" className="[&>span]:items-center">

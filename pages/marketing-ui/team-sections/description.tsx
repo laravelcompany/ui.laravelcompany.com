@@ -9,7 +9,7 @@ const GeneralDescriptionWithTeamMembersSection: FC = function () {
             Our people make us great
           </h2>
           <p className="mb-2 md:text-lg">
-            Here at Flowbite we focus on markets where technology, innovation,
+            Here at Laravel Company UI we focus on markets where technology, innovation,
             and capital can unlock long-term value.
           </p>
           <p className="md:text-lg">

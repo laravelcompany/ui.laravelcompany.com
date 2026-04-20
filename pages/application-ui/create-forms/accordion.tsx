@@ -131,7 +131,7 @@ const CreateFormWithAccordion: FC = function () {
                         <TextInput
                           id="sold-by"
                           name="sold-by"
-                          placeholder="Flowbite LLC"
+                          placeholder="Laravel Company UI LLC"
                           required
                         />
                       </div>

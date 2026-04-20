@@ -8,7 +8,7 @@ const FeatureListWithCTAsSection: FC = function () {
           The most trusted cryptocurrency platform
         </h2>
         <p className="text-gray-500 dark:text-gray-400 sm:text-xl">
-          Here are a few reasons why you should choose Flowbite
+          Here are a few reasons why you should choose Laravel Company UI
         </p>
         <div className="mt-8 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:mt-12 lg:grid-cols-3">
           <div>
@@ -78,7 +78,7 @@ const FeatureListWithCTAsSection: FC = function () {
               Insurance
             </h3>
             <p className="mb-4 text-gray-500 dark:text-gray-400">
-              Flowbite maintains crypto insurance and all USD cash balances are
+              Laravel Company UI maintains crypto insurance and all USD cash balances are
               covered.
             </p>
             <a
@@ -117,7 +117,7 @@ const FeatureListWithCTAsSection: FC = function () {
               Best practices
             </h3>
             <p className="mb-4 text-gray-500 dark:text-gray-400">
-              Flowbite marketplace supports a variety of the most popular
+              Laravel Company UI marketplace supports a variety of the most popular
               digital currencies.
             </p>
             <a

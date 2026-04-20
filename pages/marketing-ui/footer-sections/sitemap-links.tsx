@@ -286,12 +286,12 @@ const SitemapLinksFooterSection: FC = function () {
                 </linearGradient>
               </defs>
             </svg>
-            Flowbite
+            Laravel Company UI
           </a>
           <span className="block text-center text-sm text-gray-500 dark:text-gray-400">
             © 2021-2022&nbsp;
             <a href="#" className="hover:underline">
-              Flowbite™
+              Laravel Company UI™
             </a>
             . All Rights Reserved.
           </span>

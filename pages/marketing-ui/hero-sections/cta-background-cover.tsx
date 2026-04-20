@@ -10,7 +10,7 @@ const BackgroundCoverImageWithCTAsHero: FC = function () {
             We invest in the world’s potential
           </h1>
           <p className="mb-6 text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-            The need for energy is universal. That's why Flowbite scientists and
+            The need for energy is universal. That's why Laravel Company UI scientists and
             engineers are pioneering new research and pursuing new technologies
             to reduce emissions while creating more efficient fuels. We're
             committed to responsibly meeting the world's energy needs.
@@ -59,7 +59,7 @@ const BackgroundCoverImageWithCTAsHero: FC = function () {
           <div>
             <h2 className="mb-1 text-lg font-bold">Zero emissions</h2>
             <p className="mb-1 text-sm text-gray-400">
-              Flowbite aims to achieve net-zero emissions
+              Laravel Company UI aims to achieve net-zero emissions
             </p>
             <a
               href="#"

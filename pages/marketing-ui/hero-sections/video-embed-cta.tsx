@@ -9,7 +9,7 @@ const VideoEmbedWithCTAHero: FC = function () {
           Your Dream Vacation
         </h1>
         <p className="mb-8 text-gray-500 dark:text-gray-400 sm:px-16 md:text-lg lg:text-xl xl:px-48">
-          Here at Flowbite we compare a wide range of destinations, flights and
+          Here at Laravel Company UI we compare a wide range of destinations, flights and
           hotels to conjure up cheap holidays for you to enjoy, time and time
           again.
         </p>

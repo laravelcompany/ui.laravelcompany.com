@@ -10,7 +10,7 @@ const DefaultCTASection: FC = function () {
             Let's find more that brings us together.
           </h2>
           <p className="mb-8 text-gray-500 dark:text-gray-400 sm:text-xl">
-            Flowbite helps you connect with friends, family and communities of
+            Laravel Company UI helps you connect with friends, family and communities of
             people who share your interests. Connecting with your friends and
             family as well as discovering new ones is easy with features like
             Groups, Watch and Marketplace.

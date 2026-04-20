@@ -16,7 +16,7 @@ const LaunchBanner: FC = function () {
               src="https://flowbite.com/docs/images/logo.svg"
               className="mr-3"
             />
-            Flowbite
+            Laravel Company UI
           </a>
           <a
             href="#"

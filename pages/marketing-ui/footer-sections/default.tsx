@@ -6,9 +6,9 @@ const DefaultFooterSection: FC = function () {
     <Footer>
       <div className="mx-auto flex max-w-screen-xl flex-col items-center p-4 text-center md:p-8 lg:p-10 [&>div]:w-fit">
         <Footer.Brand
-          alt="Flowbite logo"
+          alt="Laravel Company UI logo"
           href="https://flowbite.com"
-          name="Flowbite"
+          name="Laravel Company UI"
           src="https://flowbite.com/docs/images/logo.svg"
         />
         <p className="my-6 text-gray-500 dark:text-gray-400">
@@ -39,7 +39,7 @@ const DefaultFooterSection: FC = function () {
           </Footer.Link>
         </Footer.LinkGroup>
         <Footer.Copyright
-          by="Flowbite™. All Rights Reserved."
+          by="Laravel Company UI™. All Rights Reserved."
           href="https://flowbite.com"
           year={2023}
         />

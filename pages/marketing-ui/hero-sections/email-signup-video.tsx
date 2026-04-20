@@ -11,7 +11,7 @@ const EmailSignUpWithVideoHero: FC = function () {
               We invest in the world’s potential
             </h1>
             <p className="mx-auto mb-6 max-w-xl text-gray-500 dark:text-gray-400 md:text-lg lg:mx-0 xl:mb-8 xl:text-xl">
-              Here at Flowbite we focus on markets where technology, innovation,
+              Here at Laravel Company UI we focus on markets where technology, innovation,
               and capital can unlock long-term value and drive economic growth.
             </p>
             <form action="#" className="">

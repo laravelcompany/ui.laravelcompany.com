@@ -12,7 +12,7 @@ const AllEcommerceSections: FC = function () {
         <>
             <BlockPageBreadcrumb
                 title="E-commerce Components"
-                description="Build your next online shop with a collection of high-quality e-commerce components coded with Tailwind CSS and Flowbite React."
+                description="Build your next online shop with a collection of high-quality e-commerce components coded with Tailwind CSS and Laravel Company UI React."
             />
 
             <BlockSection

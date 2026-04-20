@@ -42,7 +42,7 @@ const ConfirmDeleteWithCheckbox: FC = function () {
           <p className="mb-4 text-gray-500 dark:text-gray-400">
             If you remove them, it may delete these questions account and
             activity. These questions can also no longer request info about you
-            on Flowbite.
+            on Laravel Company UI.
           </p>
           <div
             className="p-4 mb-4 text-sm text-left text-gray-500 bg-gray-100 rounded-lg sm:mb-5 dark:bg-gray-700 dark:text-gray-400"
@@ -62,7 +62,7 @@ const ConfirmDeleteWithCheckbox: FC = function () {
                 <span className="font-medium text-gray-900 dark:text-white">
                   all posts, photos and videos
                 </span>
-                &nbsp;on Flowbite that 15 questions may have published on your
+                &nbsp;on Laravel Company UI that 15 questions may have published on your
                 behalf.
               </Label>
             </div>

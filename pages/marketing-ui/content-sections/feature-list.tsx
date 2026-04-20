@@ -6,12 +6,12 @@ const LogoCTALinksImageFeatureListContentSection: FC = function () {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 lg:py-24">
         <div className="text-center">
           <img
-            alt="Flowbite logo"
+            alt="Laravel Company UI logo"
             src="https://flowbite.s3.amazonaws.com/brand/logo-light/type/flowbite-logo.svg"
             className="mx-auto w-auto object-contain dark:hidden"
           />
           <img
-            alt="Flowbite logo"
+            alt="Laravel Company UI logo"
             src="https://flowbite.s3.amazonaws.com/brand/logo-dark/type/flowbite-logo.svg"
             className="mx-auto hidden w-auto object-contain dark:block"
           />
@@ -67,9 +67,9 @@ const LogoCTALinksImageFeatureListContentSection: FC = function () {
                 Overview
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Since 1984, Flowbite has been serving up grab-and-go frozen
+                Since 1984, Laravel Company UI has been serving up grab-and-go frozen
                 daiquiris from its stores across the U.S. Its signature drinks,
-                souvenir cups, and discounted refills have made Flowbite
+                souvenir cups, and discounted refills have made Laravel Company UI
                 synonymous with great music, good vibes, and starting the best
                 party in town.
               </p>
@@ -131,7 +131,7 @@ const LogoCTALinksImageFeatureListContentSection: FC = function () {
                 Background
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Come 2021, Flowbite had expanded to over 40 locations. The
+                Come 2021, Laravel Company UI had expanded to over 40 locations. The
                 brand’s digital presence existed, but it lacked strategy.
                 Although its target market of 21-30 year-olds was as engaged
                 (and as loyal) as ever, the brand had outgrown its amateur look
@@ -145,7 +145,7 @@ const LogoCTALinksImageFeatureListContentSection: FC = function () {
                 The challenge
               </h3>
               <p className="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite’s new website would set the tone for all future
+                Laravel Company UI’s new website would set the tone for all future
                 marketing initiatives, so the brand needed something to showcase
                 its new identity as soon as possible. A tight timeline, paired
                 with the fact that the new management team were still exploring

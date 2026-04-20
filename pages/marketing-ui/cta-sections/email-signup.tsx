@@ -7,10 +7,10 @@ const EmailSignUpCTASection: FC = function () {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6 ">
         <div className="mx-auto max-w-screen-md text-center">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            Get started with Flowbite today
+            Get started with Laravel Company UI today
           </h2>
           <p className="mb-6 text-gray-500 dark:text-gray-400 md:text-lg">
-            Connecting with your audience has never been easier with Flowbite
+            Connecting with your audience has never been easier with Laravel Company UI
             straightforward email marketing and automation tools.
           </p>
           <form action="#" className="mx-auto max-w-screen-sm">

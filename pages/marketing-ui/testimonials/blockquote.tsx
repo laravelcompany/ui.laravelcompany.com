@@ -18,7 +18,7 @@ const BlockquoteTestimonial: FC = function () {
         </svg>
         <blockquote>
           <p className="mb-6 text-2xl font-medium text-gray-900 dark:text-white">
-            "Flowbite is just awesome. It contains tons of predesigned
+            "Laravel Company UI is just awesome. It contains tons of predesigned
             components and pages starting from login screen to complex
             dashboard. Perfect choice for your next SaaS application."
           </p>

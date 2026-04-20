@@ -10,7 +10,7 @@ const TwoCardsAndImagesCTASection: FC = function () {
             Fundraising events
           </h2>
           <p className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
-            Flowbite helps you connect with friends, family and communities of
+            Laravel Company UI helps you connect with friends, family and communities of
             people who share your interests.
           </p>
         </div>

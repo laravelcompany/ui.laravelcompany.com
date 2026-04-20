@@ -40,7 +40,7 @@ const ConfirmDeleteWithAlert: FC = function () {
             Confirm user removal
           </h3>
           <p className="mb-4 text-gray-500 dark:text-gray-400">
-            Are you sure you want to delete this user from the Flowbite
+            Are you sure you want to delete this user from the Laravel Company UI
             platform?
           </p>
           <Alert className="mb-4 text-left text-orange-700 bg-orange-100 dark:bg-gray-700 dark:text-orange-300">

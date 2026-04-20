@@ -133,11 +133,11 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
-                <Tooltip content="Flowbite">
+                <Tooltip content="Laravel Company UI">
                   <img
                     data-tooltip-target="tooltip-logo-flowbite"
                     className="object-contain w-auto h-8"
@@ -206,7 +206,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
@@ -296,7 +296,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
@@ -355,11 +355,11 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
-                <Tooltip content="Flowbite">
+                <Tooltip content="Laravel Company UI">
                   <img
                     data-tooltip-target="tooltip-logo-flowbite"
                     className="object-contain w-auto h-8"
@@ -428,7 +428,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
@@ -517,7 +517,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
@@ -576,11 +576,11 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
-                <Tooltip content="Flowbite">
+                <Tooltip content="Laravel Company UI">
                   <img
                     data-tooltip-target="tooltip-logo-flowbite"
                     className="object-contain w-auto h-8"
@@ -649,7 +649,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
@@ -738,7 +738,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
@@ -797,11 +797,11 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
-                <Tooltip content="Flowbite">
+                <Tooltip content="Laravel Company UI">
                   <img
                     data-tooltip-target="tooltip-logo-flowbite"
                     className="object-contain w-auto h-8"
@@ -870,7 +870,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">
@@ -959,7 +959,7 @@ const ProjectPortfolioCarousel: FC = function () {
                 </a>
               </div>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400">
-                Flowbite helps you connect with friends, family and communities
+                Laravel Company UI helps you connect with friends, family and communities
                 of people who share your interests.
               </p>
               <div className="flex items-center gap-2.5">

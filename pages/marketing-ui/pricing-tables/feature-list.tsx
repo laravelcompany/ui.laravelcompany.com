@@ -7,10 +7,10 @@ const FeatureListPricingCard: FC = function () {
       <div className="mx-auto max-w-screen-xl items-center gap-8 px-4 py-8 lg:grid lg:grid-cols-2 lg:px-6 lg:py-16 xl:gap-16">
         <div className="text-gray-500 sm:text-lg">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            Why you should upgrade to Flowbite Pro
+            Why you should upgrade to Laravel Company UI Pro
           </h2>
           <p className="mb-8 dark:text-gray-400 lg:text-xl">
-            Here at Flowbite we focus on markets where technology, innovation,
+            Here at Laravel Company UI we focus on markets where technology, innovation,
             and capital can unlock long-term value.
           </p>
           <div className="grid gap-8 border-t border-gray-200 py-8 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-1">

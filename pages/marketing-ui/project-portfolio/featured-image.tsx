@@ -10,7 +10,7 @@ const ProjectPortfolioFeaturedImage: FC = function () {
             Our work
           </h2>
           <p className="text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-            Flowbite helps you connect with friends, family and communities of
+            Laravel Company UI helps you connect with friends, family and communities of
             people who share your interests.
           </p>
           <div className="flex flex-col items-center justify-center gap-6 mt-4 md:flex-row">
@@ -72,7 +72,7 @@ const ProjectPortfolioFeaturedImage: FC = function () {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h3 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl dark:text-white">
-                  Creating Flowbite's dashboard
+                  Creating Laravel Company UI's dashboard
                 </h3>
                 <a
                   href="#"
@@ -182,7 +182,7 @@ const ProjectPortfolioFeaturedImage: FC = function () {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h3 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl dark:text-white">
-                  Flowbite's landing page
+                  Laravel Company UI's landing page
                 </h3>
                 <a
                   href="#"

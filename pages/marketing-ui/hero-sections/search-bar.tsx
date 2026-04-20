@@ -16,7 +16,7 @@ const HeroSectionWithSearchBar: FC = function () {
               </span>
               &nbsp;
               <span className="text-sm font-medium">
-                Flowbite is out! See what's new
+                Laravel Company UI is out! See what's new
               </span>
               <svg
                 className="ml-2 h-5 w-5"
@@ -35,7 +35,7 @@ const HeroSectionWithSearchBar: FC = function () {
               We invest in the world’s potential
             </h1>
             <p className="mx-auto mb-6 max-w-xl text-gray-500 dark:text-gray-400 md:text-lg lg:mx-0 xl:mb-8 xl:text-xl">
-              Here at Flowbite we focus on markets where innovation can unlock
+              Here at Laravel Company UI we focus on markets where innovation can unlock
               long-term value and drive economic growth.
             </p>
             <form className="mx-auto max-w-lg lg:ml-0" action="#">

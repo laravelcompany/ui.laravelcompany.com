@@ -21,13 +21,13 @@ const TestimonialCards: FC = function () {
                 Speechless with how easy this was to integrate
               </h3>
               <p className="my-4">
-                "I recently got my hands on Flowbite Pro, and holy crap, I'm
+                "I recently got my hands on Laravel Company UI Pro, and holy crap, I'm
                 speechless with how easy this was to integrate within my
                 application. Most templates are a pain, code is scattered, and
                 near impossible to theme.
               </p>
               <p className="my-4">
-                Flowbite has code in one place and I'm not joking when I say it
+                Laravel Company UI has code in one place and I'm not joking when I say it
                 took me a matter of minutes to copy the code, customise it and
                 integrate within a Laravel + Vue application.
               </p>
@@ -53,7 +53,7 @@ const TestimonialCards: FC = function () {
                 Solid foundation for any project
               </h3>
               <p className="my-4">
-                "Flowbite provides a robust set of design tokens and components
+                "Laravel Company UI provides a robust set of design tokens and components
                 based on the popular Tailwind CSS framework. From the most used
                 UI components like forms and navigation bars to the whole app
                 screens designed both for desktop and mobile, this UI kit
@@ -84,7 +84,7 @@ const TestimonialCards: FC = function () {
               <p className="my-4">
                 "As someone who mainly designs in the browser, I've been a
                 casual user of Figma, but as soon as I saw and started playing
-                with Flowbite my mind was 🤯.
+                with Laravel Company UI my mind was 🤯.
               </p>
               <p className="my-4">
                 Everything is so well structured and simple to use (I've learnt

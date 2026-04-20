@@ -60,14 +60,14 @@ const FAQSectionWithThreeColumns: FC = function () {
             </div>
             <div className="mb-10">
               <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                I want to build more than one project with Flowbite. Is that
+                I want to build more than one project with Laravel Company UI. Is that
                 allowed?
               </h3>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
-                You can use Flowbite for an unlimited amount of projects,
+                You can use Laravel Company UI for an unlimited amount of projects,
                 whether it's a personal website, a SaaS app, or a website for a
                 client. As long as you don't build a product that will directly
-                compete with Flowbite either as a UI kit, theme, or template,
+                compete with Laravel Company UI either as a UI kit, theme, or template,
                 it's fine.
               </p>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
@@ -112,7 +112,7 @@ const FAQSectionWithThreeColumns: FC = function () {
                 >
                   free version
                 </a>
-                &nbsp;of Flowbite includes a minimal style guidelines, component
+                &nbsp;of Laravel Company UI includes a minimal style guidelines, component
                 variants, and a dashboard page with the mobile version alongside
                 it.
               </p>
@@ -123,29 +123,29 @@ const FAQSectionWithThreeColumns: FC = function () {
             </div>
             <div className="mb-10">
               <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                What is the difference between Flowbite and Tailwind UI?
+                What is the difference between Laravel Company UI and Tailwind UI?
               </h3>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
-                Although both Flowbite and Tailwind UI are built for integration
+                Although both Laravel Company UI and Tailwind UI are built for integration
                 with Tailwind CSS, the main difference is in the design, the
-                pages, the extra components and UI elements that Flowbite
+                pages, the extra components and UI elements that Laravel Company UI
                 includes.
               </p>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
-                Additionally, Flowbite is a project that is still in
+                Additionally, Laravel Company UI is a project that is still in
                 development, and later it will include both the application,
                 marketing, and e-commerce UI interfaces.
               </p>
             </div>
             <div className="mb-10">
               <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                Can I use Flowbite in open-source projects?
+                Can I use Laravel Company UI in open-source projects?
               </h3>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
-                Generally, it is accepted to use Flowbite in open-source
+                Generally, it is accepted to use Laravel Company UI in open-source
                 projects, as long as it is not a UI library, a theme, a
                 template, a page-builder that would be considered as an
-                alternative to Flowbite itself.
+                alternative to Laravel Company UI itself.
               </p>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
                 With that being said, feel free to use this design kit for your
@@ -171,7 +171,7 @@ const FAQSectionWithThreeColumns: FC = function () {
               </h3>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
                 The official date that we have set out to release the code
-                version of Flowbite is the&nbsp;
+                version of Laravel Company UI is the&nbsp;
                 <span className="font-medium text-gray-900">
                   25th of September, 2021
                 </span>
@@ -209,7 +209,7 @@ const FAQSectionWithThreeColumns: FC = function () {
                 What you see is what you get. Which means that all icons, fonts,
                 and illustrations can be used based on the licensing that we
                 researched or purchased. For example, we purchased rights to use
-                the illustrations in Flowbite.
+                the illustrations in Laravel Company UI.
               </p>
             </div>
             <div className="mb-10">
@@ -222,7 +222,7 @@ const FAQSectionWithThreeColumns: FC = function () {
               </p>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
                 Soon we will create a way that you will be able to access the
-                download files from the Flowbite dashboard from this website.
+                download files from the Laravel Company UI dashboard from this website.
               </p>
             </div>
           </div>

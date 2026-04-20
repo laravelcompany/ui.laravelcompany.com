@@ -61,7 +61,7 @@ const InformationalCTAWithAppScreenshotHero: FC = function () {
             </Button>
           </div>
           <div className="text-sm text-gray-500">
-            By using Flowbite, you agree to its&nbsp;
+            By using Laravel Company UI, you agree to its&nbsp;
             <a
               href="#"
               className="text-primary-600 hover:underline dark:text-primary-500"

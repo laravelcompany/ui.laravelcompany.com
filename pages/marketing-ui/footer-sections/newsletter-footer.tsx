@@ -182,14 +182,14 @@ const NewsletterSignUpFooterSection: FC = function () {
         <Footer.Divider />
         <div className="flex flex-col items-center justify-between lg:flex-row">
           <Footer.Brand
-            alt="Flowbite logo"
+            alt="Laravel Company UI logo"
             href="https://flowbite.com"
-            name="Flowbite"
+            name="Laravel Company UI"
             src="https://flowbite.com/docs/images/logo.svg"
             className="mb-4 lg:mb-0 sm:mb-4"
           />
           <Footer.Copyright
-            by="Flowbite™. All Rights Reserved."
+            by="Laravel Company UI™. All Rights Reserved."
             href="https://flowbite.com"
             year={2023}
             className="mb-2 lg:mb-0"

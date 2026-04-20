@@ -79,7 +79,7 @@ const StatisticsWithIconsAndCTASocialProof: FC = function () {
               99.99% uptime
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              For Flowbite, with zero maintenance downtime
+              For Laravel Company UI, with zero maintenance downtime
             </p>
           </div>
           <div>
@@ -117,7 +117,7 @@ const StatisticsWithIconsAndCTASocialProof: FC = function () {
               100+ countries
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Have used Flowbite to create functional websites
+              Have used Laravel Company UI to create functional websites
             </p>
           </div>
           <div>

@@ -14,7 +14,7 @@ const DefaultHero: FC = function () {
           </span>
           &nbsp;
           <span className="text-sm font-medium">
-            Flowbite is out! See what's new
+            Laravel Company UI is out! See what's new
           </span>
           <svg
             className="ml-2 h-5 w-5"
@@ -33,7 +33,7 @@ const DefaultHero: FC = function () {
           We invest in the world’s potential
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-500 dark:text-gray-400 sm:px-16 lg:text-xl xl:px-48">
-          Here at Flowbite we focus on markets where technology, innovation, and
+          Here at Laravel Company UI we focus on markets where technology, innovation, and
           capital can unlock long-term value and drive economic growth.
         </p>
         <div className="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">

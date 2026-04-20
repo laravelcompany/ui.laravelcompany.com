@@ -66,7 +66,7 @@ const SearchBarWithLinksFAQSection: FC = function () {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  How to update Flowbite
+                  How to update Laravel Company UI
                 </a>
               </li>
             </ul>
@@ -143,7 +143,7 @@ const SearchBarWithLinksFAQSection: FC = function () {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  How to update Flowbite
+                  How to update Laravel Company UI
                 </a>
               </li>
             </ul>

@@ -10,7 +10,7 @@ const EcommerceHero = () => {
             Don’t miss out on exclusive deals.
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-            Unlock even more exclusive member deals when you become a Flowbite Plus or Diamond member.
+            Unlock even more exclusive member deals when you become a Laravel Company UI Plus or Diamond member.
           </p>
           <div className="flex justify-center gap-4">
             <a href="#" className="btn btn-primary">

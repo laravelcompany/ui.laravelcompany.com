@@ -9,7 +9,7 @@ const FeatureListWithIconsSection: FC = function () {
             Secure platform, secure data
           </h2>
           <p className="text-gray-500 dark:text-gray-400 sm:text-xl">
-            Here at Flowbite we focus on markets where technology, innovation,
+            Here at Laravel Company UI we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
         </div>

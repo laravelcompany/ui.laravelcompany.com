@@ -16,10 +16,10 @@ const EcommerceHeader: FC = function () {
           <img
             src="https://flowbite.com/docs/images/logo.svg"
             className="mr-3 h-6 sm:h-9"
-            alt="Flowbite Logo"
+            alt="Laravel Company UI Logo"
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Flowbite
+            Laravel Company UI
           </span>
         </Navbar.Brand>
         <div className="flex items-center gap-1 lg:order-2 lg:gap-3">
