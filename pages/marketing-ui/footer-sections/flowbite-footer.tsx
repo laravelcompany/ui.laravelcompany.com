@@ -1,6 +1,6 @@
 import type { FC } from "react";
 
-const Laravel Company UIFooterSection: FC = function () {
+const FlowbiteFooterSection: FC = function () {
   return (
     <footer className="bg-gray-50 dark:bg-gray-800">
       <div className="lg:-10 mx-auto max-w-screen-xl p-4 py-6 md:p-8">
@@ -372,4 +372,4 @@ const Laravel Company UIFooterSection: FC = function () {
   );
 };
 
-export default Laravel Company UIFooterSection;
+export default FlowbiteFooterSection;

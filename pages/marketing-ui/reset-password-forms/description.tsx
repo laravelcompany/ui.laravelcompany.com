@@ -1,6 +1,6 @@
 import { Avatar, Button, Checkbox, Label, TextInput } from "flowbite-react";
 import type { FC } from "react";
-import Laravel Company UILogoSVG from "../../../components/flowbite-logo";
+import FlowbiteLogoSVG from "../../../components/flowbite-logo";
 
 const ResetPasswordFormWithDescription: FC = function () {
   return (
@@ -79,7 +79,7 @@ const ResetPasswordFormWithDescription: FC = function () {
               href="#"
               className="mb-4 flex items-center text-2xl font-semibold text-white"
             >
-              <Laravel Company UILogoSVG />
+              <FlowbiteLogoSVG />
               Laravel Company UI
             </a>
             <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-white xl:text-5xl">

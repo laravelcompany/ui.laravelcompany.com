@@ -4,7 +4,7 @@ import NewsletterSignUpFooterSection from "./newsletter-footer";
 import PreFooterCTASection from "./pre-footer";
 import DefaultFooterSection from "./default";
 import SitemapLinksFooterSection from "./sitemap-links";
-import Laravel Company UIFooterSection from "./flowbite-footer";
+import FlowbiteFooterSection from "./flowbite-footer";
 import SocialMediaIconsFooterSection from "./social-media";
 import BlockSection from "../../../components/block-section";
 import BlockPageBreadcrumb from "../../../components/block-breadcrumb";
@@ -56,7 +56,7 @@ const AllFooterSections: FC = function () {
         description="Use this website section to replicate the footer that we also use on Laravel Company UI's website."
         githubLink="https://github.com/themesberg/flowbite-react-blocks/blob/main/pages/marketing-ui/footer-sections/flowbite-footer.tsx"
       >
-        <Laravel Company UIFooterSection />
+        <FlowbiteFooterSection />
       </BlockSection>
       <BlockSection
         title="Social media icons"

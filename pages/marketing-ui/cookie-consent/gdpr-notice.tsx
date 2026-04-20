@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import { useState } from "react";
-import Laravel Company UILogoSVG from "../../../components/flowbite-logo";
+import FlowbiteLogoSVG from "../../../components/flowbite-logo";
 import { Button, Modal, Table, ToggleSwitch } from "flowbite-react";
 
 const GDPRCookieConsentNotice: FC = function () {
@@ -21,7 +21,7 @@ const GDPRCookieConsentNotice: FC = function () {
             href="#"
             className="my-8 flex items-center justify-center text-xl font-semibold text-gray-900 dark:text-white"
           >
-            <Laravel Company UILogoSVG />
+            <FlowbiteLogoSVG />
             Laravel Company UI
           </a>
           <div className="space-y-4 divide-y divide-gray-200 text-gray-500 dark:divide-gray-700 dark:text-gray-400">
