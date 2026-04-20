@@ -207,6 +207,15 @@
     "numComponents": 18
   },
   {
+    "title": "Lead Generation",
+    "categoryTitle": "Marketing UI",
+    "slug": "lead-generation",
+    "categorySlug": "marketing-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/content-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/content.svg",
+    "numComponents": 4
+  },
+  {
     "title": "How It Works",
     "categoryTitle": "Marketing UI",
     "slug": "how-it-works",
