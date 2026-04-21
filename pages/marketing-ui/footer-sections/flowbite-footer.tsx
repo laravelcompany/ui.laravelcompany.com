@@ -1,6 +1,6 @@
 import type { FC } from "react";
 
-const FlowbiteFooterSection: FC = function () {
+const LaravelCompanyFooterSection: FC = function () {
   return (
     <footer className="bg-gray-50 dark:bg-gray-800">
       <div className="lg:-10 mx-auto max-w-screen-xl p-4 py-6 md:p-8">
@@ -372,4 +372,4 @@ const FlowbiteFooterSection: FC = function () {
   );
 };
 
-export default FlowbiteFooterSection;
+export default LaravelCompanyFooterSection;

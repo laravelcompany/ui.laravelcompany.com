@@ -28,7 +28,7 @@ const BlockPageBreadcrumb: FC<
         <Breadcrumb.Item>{title}</Breadcrumb.Item>
       </Breadcrumb>
       <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-        React {title} - Flowbite
+        React {title} - Laravel Company
       </h1>
       <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl">{description}</p>
       <hr className="dark:border-gray-800 border-gray-100 mt-4" />

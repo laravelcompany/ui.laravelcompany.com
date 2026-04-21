@@ -1,7 +1,7 @@
 import { Button, Checkbox, Label, Modal, TextInput } from "flowbite-react";
 import type { FC } from "react";
 import { useState } from "react";
-import FlowbiteLogoSVG from "../../../components/flowbite-logo";
+import LaravelCompanyLogoSVG from "../../../components/flowbite-logo";
 
 const AuthenticationPopup: FC = function () {
   const [show, setShow] = useState(false);
@@ -16,7 +16,7 @@ const AuthenticationPopup: FC = function () {
               href="#"
               className="flex items-center text-xl font-semibold text-gray-900 dark:text-white"
             >
-              <FlowbiteLogoSVG />
+              <LaravelCompanyLogoSVG />
               Izzy
             </a>
             <button

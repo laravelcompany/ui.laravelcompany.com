@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import FlowbiteLogoSVG from "../../../components/flowbite-logo";
+import LaravelCompanyLogoSVG from "../../../components/flowbite-logo";
 import { Button, Checkbox, Label, Select, TextInput } from "flowbite-react";
 
 const BackgroundImageRegisterForm: FC = function () {
@@ -10,7 +10,7 @@ const BackgroundImageRegisterForm: FC = function () {
           href="#"
           className="mb-6 flex items-center text-2xl font-semibold text-white"
         >
-          <FlowbiteLogoSVG />
+          <LaravelCompanyLogoSVG />
           Laravel Company UI
         </a>
         <div className="w-full rounded-lg bg-white shadow dark:bg-gray-800 sm:max-w-md md:mt-0 xl:p-0">

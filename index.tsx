@@ -1,4 +1,4 @@
-import { DarkThemeToggle, Flowbite, Navbar } from "flowbite-react";
+import { Flowbite, Navbar } from "flowbite-react";
 import type { FC } from "react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -76,11 +76,7 @@ const RootNavbar: FC = function () {
           Laravel Company
         </span>
       </Navbar.Brand>
-      <div className="flex gap-2 md:order-2">
-
-        <DarkThemeToggle />
-        <Navbar.Toggle theme={{ icon: "h-5 w-5 shrink-0" }} />
-      </div>
+      
       <Navbar.Collapse>
         <Navbar.Link href="/">
           Home

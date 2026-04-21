@@ -400,8 +400,8 @@
     "categoryTitle": "Marketing UI",
     "slug": "ecommerce",
     "categorySlug": "marketing-ui",
-    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/ecommerce-dark.svg",
-    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/ecommerce.svg",
+    "iconDark": "/logo.svg",
+    "iconLight": "/logo.svg",
     "numComponents": 5
   }
 ]

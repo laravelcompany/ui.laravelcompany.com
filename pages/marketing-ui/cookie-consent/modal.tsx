@@ -1,7 +1,7 @@
 import { Button, Modal } from "flowbite-react";
 import type { FC } from "react";
 import { useState } from "react";
-import FlowbiteLogoSVG from "../../../components/flowbite-logo";
+import LaravelCompanyLogoSVG from "../../../components/flowbite-logo";
 
 const CookieConsentModal: FC = function () {
   const [show, setShow] = useState(false);
@@ -15,7 +15,7 @@ const CookieConsentModal: FC = function () {
             href="#"
             className="mb-2 flex items-center text-xl font-semibold text-gray-900 dark:text-white sm:mb-0"
           >
-            <FlowbiteLogoSVG />
+            <LaravelCompanyLogoSVG />
             Laravel Company UI
           </a>
         </Modal.Header>
