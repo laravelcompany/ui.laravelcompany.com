@@ -1,5 +1,5 @@
 import { Button, TextInput } from "flowbite-react";
-import type { FC } from "react";
+import type { FC, ReactNode } from "react";
 import { HiArrowLeft, HiOutlineShoppingBag, HiPlus, HiMinus, HiTrash } from "react-icons/hi";
 
 const ShoppingCart: FC = function () {
@@ -107,7 +107,7 @@ const ShoppingCart: FC = function () {
     );
 };
 
-const Label: FC<{ htmlFor: string; className?: string; children: React.ReactNode }> = ({ htmlFor, className, children }) => (
+const Label: FC<{ htmlFor: string; className?: string; children: ReactNode }> = ({ htmlFor, className, children }) => (
     <label htmlFor={htmlFor} className={`block mb-2 text-sm font-medium text-gray-900 dark:text-white ${className}`}>
         {children}
     </label>

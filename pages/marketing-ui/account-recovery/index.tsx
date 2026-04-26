@@ -14,6 +14,8 @@ const AllAccountRecovery: FC = function () {
       <ModernGradientRecovery />
       <GlassmorphismRecovery />
       <AnimatedCardRecovery />
+      <SplitScreenRecovery />
+      <SecurityCodeRecovery />
     </>
   );
 };
@@ -258,6 +260,154 @@ const AnimatedCardRecovery: FC = function () {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </BlockSection>
+  );
+};
+
+const SplitScreenRecovery: FC = function () {
+  return (
+    <BlockSection
+      title="Split Screen Recovery"
+      description="Two-column recovery layout with onboarding copy and a simple reset form"
+    >
+      <div className="grid min-h-screen grid-cols-1 overflow-hidden rounded-3xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900 lg:grid-cols-2">
+        <div className="flex flex-col justify-between bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-700 p-8 text-white md:p-12">
+          <div>
+            <div className="mb-6 inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur">
+              Account protection
+            </div>
+            <h2 className="max-w-md text-4xl font-extrabold tracking-tight">
+              Recover access without contacting support.
+            </h2>
+            <p className="mt-4 max-w-lg text-blue-100">
+              Reset links expire automatically and every request is logged to keep your account secure.
+            </p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-3">
+            <div className="rounded-2xl bg-white/10 p-4 backdrop-blur">
+              <p className="text-sm text-blue-100">Reset time</p>
+              <p className="mt-2 text-2xl font-bold">2 min</p>
+            </div>
+            <div className="rounded-2xl bg-white/10 p-4 backdrop-blur">
+              <p className="text-sm text-blue-100">Delivery rate</p>
+              <p className="mt-2 text-2xl font-bold">99.8%</p>
+            </div>
+            <div className="rounded-2xl bg-white/10 p-4 backdrop-blur">
+              <p className="text-sm text-blue-100">Sessions revoked</p>
+              <p className="mt-2 text-2xl font-bold">Optional</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center justify-center p-6 md:p-10">
+          <div className="w-full max-w-md">
+            <div className="mb-8 text-center">
+              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-100 dark:bg-blue-900/30">
+                <HiMail className="h-8 w-8 text-blue-600 dark:text-blue-400" />
+              </div>
+              <h3 className="text-3xl font-bold text-gray-900 dark:text-white">Reset your password</h3>
+              <p className="mt-2 text-gray-500 dark:text-gray-400">
+                Enter the email tied to your account and we’ll send a secure recovery link.
+              </p>
+            </div>
+            <form className="space-y-5">
+              <div>
+                <Label htmlFor="email-split" value="Work Email" className="mb-2 block font-semibold" />
+                <TextInput id="email-split" type="email" placeholder="name@company.com" icon={HiMail} required />
+              </div>
+              <div className="rounded-2xl border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800">
+                <div className="flex items-start gap-3">
+                  <HiShieldCheck className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600 dark:text-green-400" />
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                    For added safety, we can sign you out from all other devices after the reset is confirmed.
+                  </p>
+                </div>
+              </div>
+              <Button type="submit" size="xl" className="w-full">
+                Email recovery link
+              </Button>
+              <a href="#" className="inline-flex items-center text-sm font-medium text-blue-600 hover:underline dark:text-blue-400">
+                <HiArrowLeft className="mr-2 h-4 w-4" />
+                Return to sign in
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </BlockSection>
+  );
+};
+
+const SecurityCodeRecovery: FC = function () {
+  return (
+    <BlockSection
+      title="Security Code Recovery"
+      description="Verification-driven recovery flow with a follow-up code entry step"
+    >
+      <div className="min-h-screen bg-gray-950 p-4 md:p-8">
+        <div className="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[0.95fr,1.05fr]">
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-white backdrop-blur">
+            <h3 className="text-3xl font-bold">Verify ownership first</h3>
+            <p className="mt-4 text-sm leading-6 text-gray-300">
+              We’ll send a six-digit code to your recovery email before allowing any password change.
+            </p>
+            <div className="mt-8 space-y-4">
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p className="text-sm text-gray-400">Step 1</p>
+                <p className="mt-1 font-semibold">Enter your email address</p>
+              </div>
+              <div className="rounded-2xl border border-cyan-400/30 bg-cyan-400/10 p-4">
+                <p className="text-sm text-cyan-200">Step 2</p>
+                <p className="mt-1 font-semibold text-white">Confirm the recovery code</p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p className="text-sm text-gray-400">Step 3</p>
+                <p className="mt-1 font-semibold">Set a new password</p>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-2xl dark:border-gray-700 dark:bg-gray-900">
+            <div className="mb-8">
+              <div className="mb-4 inline-flex rounded-full bg-cyan-100 px-4 py-2 text-sm font-medium text-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-300">
+                Step 2 of 3
+              </div>
+              <h3 className="text-3xl font-bold text-gray-900 dark:text-white">Enter verification code</h3>
+              <p className="mt-2 text-gray-500 dark:text-gray-400">
+                We sent a code to `recovery@company.com`. It expires in 10 minutes.
+              </p>
+            </div>
+            <form className="space-y-6">
+              <div className="grid grid-cols-6 gap-3">
+                {["1", "2", "3", "4", "5", "6"].map((digit, index) => (
+                  <input
+                    key={index}
+                    type="text"
+                    defaultValue={index < 2 ? digit : ""}
+                    maxLength={1}
+                    className="h-14 rounded-2xl border border-gray-300 text-center text-xl font-bold text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+                  />
+                ))}
+              </div>
+              <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/40 dark:bg-amber-900/20">
+                <p className="text-sm text-amber-800 dark:text-amber-300">
+                  Didn’t receive the code? Check spam or request another one in 24 seconds.
+                </p>
+              </div>
+              <Button type="submit" size="xl" className="w-full bg-cyan-600 hover:bg-cyan-700">
+                Continue to new password
+              </Button>
+              <div className="flex items-center justify-between text-sm">
+                <a href="#" className="font-medium text-cyan-600 hover:underline dark:text-cyan-400">
+                  Resend code
+                </a>
+                <a href="#" className="inline-flex items-center font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                  <HiArrowLeft className="mr-2 h-4 w-4" />
+                  Start over
+                </a>
+              </div>
+            </form>
           </div>
         </div>
       </div>

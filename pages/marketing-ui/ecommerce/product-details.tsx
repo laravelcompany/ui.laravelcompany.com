@@ -1,6 +1,6 @@
-import { Badge, Button, Rating, Tabs, TextInput } from "flowbite-react";
+import { Badge, Button, Rating, Tabs } from "flowbite-react";
 import type { FC } from "react";
-import { HiCheck, HiHeart, HiMinus, HiPlus, HiShare, HiShieldCheck, HiShoppingCart, HiTruck } from "react-icons/hi";
+import { HiHeart, HiMinus, HiPlus, HiShieldCheck, HiShoppingCart, HiTruck } from "react-icons/hi";
 
 const ProductDetails: FC = function () {
     return (
@@ -104,7 +104,7 @@ const ProductDetails: FC = function () {
                     </div>
 
                     <div className="mt-8">
-                        <Tabs.Group aria-label="Product info" style="underline">
+                        <Tabs aria-label="Product info" style="underline">
                             <Tabs.Item active title="Description">
                                 <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
                                     The new iMac features a 24-inch 4.5K Retina display with over 11.3 million pixels and 500 nits of brightness.
@@ -121,7 +121,7 @@ const ProductDetails: FC = function () {
                             <Tabs.Item title="Reviews">
                                 <p className="text-gray-500">Reviews content goes here...</p>
                             </Tabs.Item>
-                        </Tabs.Group>
+                        </Tabs>
                     </div>
                 </div>
             </div>

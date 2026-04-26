@@ -57,7 +57,7 @@ const FinancialExchangeCryptoHero: FC = function () {
         </div>
         <div className="mt-8 rounded-lg border border-gray-200 p-8 dark:border-gray-700 lg:mt-12">
           <div className="mx-auto mb-4 lg:mb-8 w-fit">
-            <Tabs.Group style="underline" className="items-center" theme={{
+            <Tabs aria-label="Crypto exchange actions" style="underline" className="items-center" theme={{
               tablist: {
                 tabitem: {
                   "base": "flex items-center justify-center p-4 rounded-t-lg text-sm font-medium first:ml-0 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500 focus:ring-0 focus:outline-none",
@@ -236,7 +236,7 @@ const FinancialExchangeCryptoHero: FC = function () {
                   </div>
                 </div>
               </Tabs.Item>
-            </Tabs.Group>
+            </Tabs>
           </div>
           <Button href="#" className="mx-auto w-full md:w-fit">
             Connect your wallet

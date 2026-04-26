@@ -204,7 +204,16 @@
     "categorySlug": "marketing-ui",
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/hero-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/marketing/hero.svg",
-    "numComponents": 18
+    "numComponents": 21
+  },
+  {
+    "title": "Mail",
+    "categoryTitle": "Application UI",
+    "slug": "mail",
+    "categorySlug": "application-ui",
+    "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
+    "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
+    "numComponents": 3
   },
   {
     "title": "Lead Generation",
@@ -375,7 +384,7 @@
     "categorySlug": "application-ui",
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
-    "numComponents": 3
+    "numComponents": 6
   },
   {
     "title": "Team Sections",

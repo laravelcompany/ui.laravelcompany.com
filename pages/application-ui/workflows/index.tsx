@@ -1,6 +1,17 @@
 import { Button, Card, Badge } from "flowbite-react";
 import type { FC } from "react";
-import { HiPlus, HiArrowRight, HiDotsHorizontal, HiCheck, HiClock, HiPlay } from "react-icons/hi";
+import {
+    HiPlus,
+    HiArrowRight,
+    HiDotsHorizontal,
+    HiCheck,
+    HiClock,
+    HiPlay,
+    HiMail,
+    HiOfficeBuilding,
+    HiSparkles,
+    HiUser,
+} from "react-icons/hi";
 import BlockSection from "../../../components/block-section";
 
 const WorkflowsPage: FC = function () {
@@ -9,6 +20,9 @@ const WorkflowsPage: FC = function () {
             <VisualNodeEditor />
             <LinearProcess />
             <TimelineWorkflow />
+            <ApprovalQueueBoard />
+            <EscalationPolicy />
+            <WorkflowRunSummary />
         </>
     );
 };
@@ -173,5 +187,268 @@ const TimelineWorkflow: FC = function () {
         </BlockSection>
     )
 }
+
+const ApprovalQueueBoard: FC = function () {
+    const columns = [
+        {
+            title: "Requested",
+            badge: "4 items",
+            color: "blue",
+            cards: [
+                { title: "New vendor onboarding", owner: "Finance Ops", time: "Submitted 8 min ago" },
+                { title: "Enterprise discount review", owner: "Sales", time: "Submitted 22 min ago" },
+            ],
+        },
+        {
+            title: "In review",
+            badge: "2 active",
+            color: "yellow",
+            cards: [
+                { title: "Security exception", owner: "Platform Team", time: "Waiting on legal notes" },
+                { title: "Refund over threshold", owner: "Support", time: "Needs supervisor sign-off" },
+            ],
+        },
+        {
+            title: "Completed",
+            badge: "6 today",
+            color: "green",
+            cards: [
+                { title: "Contract renewal", owner: "Procurement", time: "Approved by A. Carter" },
+                { title: "Campaign launch", owner: "Marketing", time: "Published 14 min ago" },
+            ],
+        },
+    ];
+
+    return (
+        <BlockSection
+            title="Approval Queue Board"
+            description="Kanban-style workflow for routing requests through review stages"
+        >
+            <div className="grid grid-cols-1 gap-4 bg-gray-50 p-4 dark:bg-gray-900 xl:grid-cols-3">
+                {columns.map((column) => (
+                    <div
+                        key={column.title}
+                        className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800"
+                    >
+                        <div className="mb-4 flex items-center justify-between">
+                            <div>
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{column.title}</h3>
+                                <p className="text-sm text-gray-500 dark:text-gray-400">{column.badge}</p>
+                            </div>
+                            <Badge color={column.color}>{column.badge}</Badge>
+                        </div>
+                        <div className="space-y-3">
+                            {column.cards.map((card) => (
+                                <div
+                                    key={card.title}
+                                    className="rounded-lg border border-gray-200 p-4 shadow-sm dark:border-gray-700"
+                                >
+                                    <div className="mb-3 flex items-start justify-between gap-3">
+                                        <div>
+                                            <h4 className="font-medium text-gray-900 dark:text-white">{card.title}</h4>
+                                            <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">{card.time}</p>
+                                        </div>
+                                        <HiDotsHorizontal className="mt-1 text-gray-400" />
+                                    </div>
+                                    <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                                        <span className="inline-flex items-center gap-2">
+                                            <HiOfficeBuilding className="h-4 w-4" />
+                                            {card.owner}
+                                        </span>
+                                        <Button size="xs" color="gray">
+                                            Open
+                                        </Button>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </BlockSection>
+    );
+};
+
+const EscalationPolicy: FC = function () {
+    const steps = [
+        {
+            icon: HiMail,
+            title: "Initial reminder",
+            description: "Notify the current approver when a task is inactive for 30 minutes.",
+            accent: "bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300",
+        },
+        {
+            icon: HiUser,
+            title: "Manager escalation",
+            description: "Route to the team lead after the first SLA breach and preserve the full audit trail.",
+            accent: "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300",
+        },
+        {
+            icon: HiSparkles,
+            title: "Automated fallback",
+            description: "Trigger a backup workflow that pauses downstream tasks and flags impacted records.",
+            accent: "bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300",
+        },
+    ];
+
+    return (
+        <BlockSection
+            title="Escalation Policy"
+            description="Workflow steps for handling overdue approvals and automated fallback actions"
+        >
+            <Card>
+                <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.25fr,0.75fr]">
+                    <div className="space-y-4">
+                        {steps.map((step, index) => {
+                            const Icon = step.icon;
+
+                            return (
+                                <div key={step.title} className="flex gap-4 rounded-lg border border-gray-200 p-4 dark:border-gray-700">
+                                    <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${step.accent}`}>
+                                        <Icon className="h-5 w-5" />
+                                    </div>
+                                    <div className="flex-1">
+                                        <div className="mb-1 flex items-center gap-2">
+                                            <span className="text-sm font-semibold text-gray-400 dark:text-gray-500">
+                                                0{index + 1}
+                                            </span>
+                                            <h3 className="font-semibold text-gray-900 dark:text-white">{step.title}</h3>
+                                        </div>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400">{step.description}</p>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                    <div className="rounded-lg bg-gray-50 p-5 dark:bg-gray-900">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Policy snapshot</h3>
+                        <div className="mt-4 space-y-4">
+                            <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
+                                <div className="mb-2 flex items-center justify-between">
+                                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400">SLA target</span>
+                                    <Badge color="info">2h response</Badge>
+                                </div>
+                                <p className="text-2xl font-bold text-gray-900 dark:text-white">94.8%</p>
+                            </div>
+                            <div className="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
+                                <div className="mb-2 flex items-center justify-between">
+                                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400">Open escalations</span>
+                                    <Badge color="warning">3 active</Badge>
+                                </div>
+                                <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                                    <div className="flex items-center justify-between">
+                                        <span>Billing exception</span>
+                                        <span>42m late</span>
+                                    </div>
+                                    <div className="flex items-center justify-between">
+                                        <span>GDPR export</span>
+                                        <span>18m late</span>
+                                    </div>
+                                    <div className="flex items-center justify-between">
+                                        <span>Campaign approval</span>
+                                        <span>9m late</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Card>
+        </BlockSection>
+    );
+};
+
+const WorkflowRunSummary: FC = function () {
+    const jobs = [
+        { name: "Customer welcome sequence", status: "Completed", duration: "1m 24s", color: "success" },
+        { name: "Document verification", status: "Running", duration: "4m 08s", color: "info" },
+        { name: "Payment risk review", status: "Needs input", duration: "Paused", color: "warning" },
+    ];
+
+    return (
+        <BlockSection
+            title="Workflow Run Summary"
+            description="Compact operations view for live runs, completion rate, and next actions"
+        >
+            <Card>
+                <div className="grid grid-cols-1 gap-6 lg:grid-cols-[0.9fr,1.1fr]">
+                    <div className="rounded-lg bg-gray-50 p-5 dark:bg-gray-900">
+                        <div className="flex items-start justify-between">
+                            <div>
+                                <p className="text-sm font-medium text-gray-500 dark:text-gray-400">Today</p>
+                                <p className="mt-1 text-3xl font-bold text-gray-900 dark:text-white">128 runs</p>
+                            </div>
+                            <Badge color="success">97.2% success</Badge>
+                        </div>
+                        <div className="mt-6 space-y-4">
+                            <div>
+                                <div className="mb-2 flex items-center justify-between text-sm">
+                                    <span className="text-gray-500 dark:text-gray-400">Completed</span>
+                                    <span className="font-medium text-gray-900 dark:text-white">101</span>
+                                </div>
+                                <div className="h-2 rounded-full bg-gray-200 dark:bg-gray-700">
+                                    <div className="h-2 w-[79%] rounded-full bg-green-500"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mb-2 flex items-center justify-between text-sm">
+                                    <span className="text-gray-500 dark:text-gray-400">Running</span>
+                                    <span className="font-medium text-gray-900 dark:text-white">19</span>
+                                </div>
+                                <div className="h-2 rounded-full bg-gray-200 dark:bg-gray-700">
+                                    <div className="h-2 w-[15%] rounded-full bg-blue-500"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="mb-2 flex items-center justify-between text-sm">
+                                    <span className="text-gray-500 dark:text-gray-400">Needs attention</span>
+                                    <span className="font-medium text-gray-900 dark:text-white">8</span>
+                                </div>
+                                <div className="h-2 rounded-full bg-gray-200 dark:bg-gray-700">
+                                    <div className="h-2 w-[6%] rounded-full bg-amber-500"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="mb-4 flex items-center justify-between">
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Active runs</h3>
+                            <Button size="xs" color="gray">
+                                View logs
+                            </Button>
+                        </div>
+                        <div className="space-y-3">
+                            {jobs.map((job) => (
+                                <div
+                                    key={job.name}
+                                    className="flex flex-col gap-3 rounded-lg border border-gray-200 p-4 dark:border-gray-700 md:flex-row md:items-center md:justify-between"
+                                >
+                                    <div>
+                                        <div className="flex items-center gap-2">
+                                            <h4 className="font-medium text-gray-900 dark:text-white">{job.name}</h4>
+                                            <Badge color={job.color}>{job.status}</Badge>
+                                        </div>
+                                        <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                                            Last updated {job.duration} ago
+                                        </p>
+                                    </div>
+                                    <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
+                                        <span className="inline-flex items-center gap-1">
+                                            <HiClock className="h-4 w-4" />
+                                            {job.duration}
+                                        </span>
+                                        <Button size="xs" color="gray">
+                                            Inspect
+                                        </Button>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </Card>
+        </BlockSection>
+    );
+};
 
 export default WorkflowsPage;

@@ -1,4 +1,5 @@
 import type { FC } from "react";
+import { Avatar, Badge, Button } from "flowbite-react";
 import FinancialExchangeCryptoHero from "./crypto";
 import AppScreenshotWithCTAsHero from "./cta-app-preview";
 import InformationalCTAWithAppScreenshotHero from "./cta-screenshot-download";
@@ -169,7 +170,132 @@ const AllHeroSections: FC = function () {
       >
         <PromoSectionHero />
       </BlockSection>
+      <LaunchCountdownHero />
+      <FounderLetterHero />
+      <RecruitingMetricsHero />
     </>
+  );
+};
+
+const LaunchCountdownHero: FC = function () {
+  return (
+    <BlockSection
+      title="Launch Countdown Hero"
+      description="Event-driven hero section with urgency, countdown tiles, and early access call to action"
+    >
+      <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-indigo-950 to-blue-900 px-6 py-16 text-white md:px-10 lg:px-14">
+        <div className="grid items-center gap-10 lg:grid-cols-[1.1fr,0.9fr]">
+          <div>
+            <Badge color="info" className="mb-5 w-fit">Launch Week</Badge>
+            <h2 className="max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl">
+              The analytics workspace ships on May 30 with live collaboration built in.
+            </h2>
+            <p className="mt-5 max-w-2xl text-base text-blue-100 sm:text-lg">
+              Join the release list to get onboarding templates, migration help, and priority access before public rollout.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button color="light">Reserve early access</Button>
+              <Button color="gray">See release notes</Button>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-2">
+            {[
+              { value: "04", label: "Days" },
+              { value: "17", label: "Hours" },
+              { value: "26", label: "Minutes" },
+              { value: "51", label: "Seconds" },
+            ].map((item) => (
+              <div key={item.label} className="rounded-2xl border border-white/10 bg-white/10 p-5 text-center backdrop-blur">
+                <p className="text-4xl font-extrabold">{item.value}</p>
+                <p className="mt-2 text-sm uppercase tracking-[0.2em] text-blue-100">{item.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </BlockSection>
+  );
+};
+
+const FounderLetterHero: FC = function () {
+  return (
+    <BlockSection
+      title="Founder Letter Hero"
+      description="Editorial-style hero section with a personal message, signature, and a focused next step"
+    >
+      <section className="rounded-3xl border border-amber-200 bg-amber-50 px-6 py-14 dark:border-amber-900/40 dark:bg-gray-900 md:px-10 lg:px-14">
+        <div className="grid gap-10 lg:grid-cols-[0.95fr,1.05fr] lg:items-center">
+          <div className="rounded-3xl bg-white p-8 shadow-sm dark:bg-gray-800">
+            <div className="flex items-center gap-4">
+              <Avatar rounded img="https://flowbite.com/docs/images/people/profile-picture-5.jpg" size="lg" />
+              <div>
+                <p className="text-lg font-semibold text-gray-900 dark:text-white">Bonnie Green</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Co-founder and CEO</p>
+              </div>
+            </div>
+            <p className="mt-6 text-sm uppercase tracking-[0.2em] text-amber-700 dark:text-amber-400">Letter from the founder</p>
+            <p className="mt-4 text-lg leading-8 text-gray-700 dark:text-gray-300">
+              We started this product to reduce the hours teams waste on status chasing, scattered docs, and fragile launches. The next chapter is about clarity at scale.
+            </p>
+            <p className="mt-4 text-gray-600 dark:text-gray-400">
+              If you lead product, operations, or growth, this release was built for the moments where alignment matters most.
+            </p>
+          </div>
+          <div>
+            <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
+              A calmer way to ship work across product, design, and go-to-market.
+            </h2>
+            <p className="mt-5 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
+              Replace fragmented launch rituals with one operating layer for planning, sign-off, and release follow-through.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button>Read the roadmap</Button>
+              <Button color="gray">Watch the product memo</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </BlockSection>
+  );
+};
+
+const RecruitingMetricsHero: FC = function () {
+  return (
+    <BlockSection
+      title="Recruiting Metrics Hero"
+      description="Careers-focused hero with hiring message, social proof, and team statistics"
+    >
+      <section className="rounded-3xl bg-white px-6 py-14 shadow-sm ring-1 ring-gray-200 dark:bg-gray-900 dark:ring-gray-800 md:px-10 lg:px-14">
+        <div className="grid gap-10 lg:grid-cols-[1fr,0.9fr] lg:items-center">
+          <div>
+            <Badge color="success" className="mb-5 w-fit">We’re Hiring</Badge>
+            <h2 className="max-w-3xl text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
+              Join a small senior team building tools used by fast-moving companies every day.
+            </h2>
+            <p className="mt-5 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
+              We hire people who care about product taste, writing clearly, and owning real outcomes rather than just tickets.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button>View open roles</Button>
+              <Button color="gray">Meet the team</Button>
+            </div>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-2">
+            {[
+              { label: "Team size", value: "42" },
+              { label: "Countries", value: "11" },
+              { label: "Avg. tenure", value: "4.8y" },
+              { label: "Offer rate", value: "6%" },
+            ].map((item) => (
+              <div key={item.label} className="rounded-2xl border border-gray-200 bg-gray-50 p-5 dark:border-gray-700 dark:bg-gray-800">
+                <p className="text-sm text-gray-500 dark:text-gray-400">{item.label}</p>
+                <p className="mt-2 text-3xl font-extrabold text-gray-900 dark:text-white">{item.value}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </BlockSection>
   );
 };
 

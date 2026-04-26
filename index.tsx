@@ -1,11 +1,18 @@
 import { Flowbite, Navbar } from "flowbite-react";
-import type { FC } from "react";
+import type { ComponentType, FC } from "react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
-const pages = import.meta.glob("./pages/**/*.tsx", { eager: true });
+type PageModule = {
+  default: ComponentType;
+  loader?: unknown;
+  action?: unknown;
+  ErrorBoundary?: ComponentType;
+};
+
+const pages = import.meta.glob<PageModule>("./pages/**/*.tsx");
 const routes = [];
 for (const path of Object.keys(pages)) {
   const fileName = path.match(/\.\/pages\/(.*)\.tsx$/)?.[1];
@@ -19,14 +26,17 @@ for (const path of Object.keys(pages)) {
 
   routes.push({
     path: fileName === "index" ? "/" : `/${normalizedPathName.toLowerCase()}`,
-    // @ts-expect-error
-    Element: pages[path].default,
-    // @ts-expect-error
-    loader: pages[path]?.loader as unknown as LoaderFunction | undefined,
-    // @ts-expect-error
-    action: pages[path]?.action as unknown as ActionFunction | undefined,
-    // @ts-expect-error
-    ErrorBoundary: pages[path]?.ErrorBoundary as unknown as JSX.Element,
+    lazy: async () => {
+      const module = await pages[path]();
+
+      return {
+        Component: module.default,
+        loader: module.loader,
+        action: module.action,
+        ErrorBoundary: module.ErrorBoundary ?? GlobalErrorBoundary,
+      };
+    },
+    errorElement: <GlobalErrorBoundary />,
   });
 }
 
@@ -50,13 +60,7 @@ const GlobalErrorBoundary: FC = function () {
   );
 };
 
-const router = createBrowserRouter(
-  routes.map(({ Element, ErrorBoundary, ...props }) => ({
-    ...props,
-    element: <Element />,
-    errorElement: <GlobalErrorBoundary />,
-  }))
-);
+const router = createBrowserRouter(routes);
 
 const rootElem = document.getElementById("root");
 if (!rootElem) {
