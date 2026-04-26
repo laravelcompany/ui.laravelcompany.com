@@ -12,6 +12,26 @@ type PageModule = {
   ErrorBoundary?: ComponentType;
 };
 
+function GlobalErrorBoundary() {
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-4 dark:bg-gray-900">
+      <div className="w-full max-w-md text-center">
+        <h1 className="mb-4 text-6xl font-extrabold text-blue-600">500</h1>
+        <p className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Something went wrong</p>
+        <p className="mb-8 text-gray-500 dark:text-gray-400">
+          We encountered an unexpected error. Our team has been notified.
+        </p>
+        <a
+          href="/"
+          className="inline-flex items-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+        >
+          Return Home
+        </a>
+      </div>
+    </div>
+  );
+}
+
 const pages = import.meta.glob<PageModule>("./pages/**/*.tsx");
 const routes = [];
 for (const path of Object.keys(pages)) {
@@ -39,26 +59,6 @@ for (const path of Object.keys(pages)) {
     errorElement: <GlobalErrorBoundary />,
   });
 }
-
-const GlobalErrorBoundary: FC = function () {
-  return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-4 dark:bg-gray-900">
-      <div className="w-full max-w-md text-center">
-        <h1 className="mb-4 text-6xl font-extrabold text-blue-600">500</h1>
-        <p className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">Something went wrong</p>
-        <p className="mb-8 text-gray-500 dark:text-gray-400">
-          We encountered an unexpected error. Our team has been notified.
-        </p>
-        <a
-          href="/"
-          className="inline-flex items-center rounded-lg bg-blue-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
-        >
-          Return Home
-        </a>
-      </div>
-    </div>
-  );
-};
 
 const router = createBrowserRouter(routes);
 
