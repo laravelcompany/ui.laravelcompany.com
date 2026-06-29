@@ -51,7 +51,7 @@
     "categorySlug": "application-ui",
     "iconDark": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page-dark.svg",
     "iconLight": "https://flowbite.s3.amazonaws.com/block-thumbnails/application/create-page.svg",
-    "numComponents": 3
+    "numComponents": 4
   },
   {
     "title": "Contact Forms",
